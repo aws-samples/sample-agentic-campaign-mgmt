@@ -83,7 +83,7 @@ ReAct stands for **Reason-Act-Observe**. It's a loop:
 
 <div align="center">
 
-![ReAct pattern — Reason, Act, Observe loop](images/08-react-pattern.png)
+![ReAct pattern — Reason, Act, Observe loop](docs/images/08-react-pattern.png)
 
 </div>
 
@@ -102,7 +102,7 @@ They have different jobs:
 
 <div align="center">
 
-![System prompt vs tool descriptions](images/t06-prompt-vs-tools.png)
+![System prompt vs tool descriptions](docs/images/t06-prompt-vs-tools.png)
 
 </div>
 
@@ -116,7 +116,7 @@ Mixing them causes maintenance drift. If you put "call `get_metrics` before `dia
 
 <div align="center">
 
-![5 anti-patterns we avoided](images/t07-anti-patterns.png)
+![5 anti-patterns we avoided](docs/images/t07-anti-patterns.png)
 
 </div>
 
