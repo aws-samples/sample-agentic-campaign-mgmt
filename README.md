@@ -29,7 +29,7 @@ or fleet operations.
   and ML inference is a template you can lift into finance, healthcare, or ops domains
   without rearchitecting.
 
-📖 **Companion blog post:** [Stop Asking Your LLM to Do Math: How We Split Work Between GenAI and ML](#), the full narrative behind the architectural decisions in this repo.
+📖 **Companion blog post:** [Stop Asking Your LLM to Do Math: How We Split Work Between GenAI and ML](https://medium.com/@manoj.ramani03/stop-asking-your-llm-to-do-math-how-we-split-work-between-genai-and-ml-2bc089e36267), the full narrative behind the architectural decisions in this repo.
 
 ---
 
