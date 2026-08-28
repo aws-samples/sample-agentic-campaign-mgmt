@@ -5,9 +5,8 @@ description = "AI agent for programmatic advertising campaign optimization, buil
 license = "MIT-0"
 requires-python = ">=3.12"
 dependencies = [
-    # ML pipeline (ml/) — pandas used by training scripts
+    # ML pipeline
     "pandas>=2.1.0",
-    # ML pipeline (ml/)
     "xgboost>=2.0.0",
     "scikit-learn>=1.4.0",
     "numpy>=1.26.0",
@@ -17,7 +16,16 @@ dependencies = [
     "strands-agents>=0.1.0",
     "strands-agents-tools>=0.1.0",
     # AgentCore Runtime SDK
-    "bedrock-agentcore>=0.1.0",
+    "bedrock-agentcore>=1.6.0",
+    # Pinned minimums to resolve Dependabot security alerts on transitive deps
+    "aiohttp>=3.14.0",
+    "cryptography>=46.0.6",
+    "pillow>=12.2.0",
+    "mcp>=1.29.0",
+    "pyjwt>=2.13.0",
+    "soupsieve>=2.9.0",
+    "pydantic-settings>=2.14.0",
+    "starlette>=1.6.0",
 ]
 
 [dependency-groups]
