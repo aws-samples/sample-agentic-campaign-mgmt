@@ -1,0 +1,167 @@
+[
+  {
+    "trader_id": "trader_alpha",
+    "email": "alpha@example.com",
+    "slack_user_id": "UALPHA01",
+    "name": "Trader Alpha",
+    "experience_level": "intermediate",
+    "years_experience": 3,
+    "active_campaigns": 42,
+    "notification_preferences": {
+      "critical_alerts": "immediate",
+      "warning_alerts": "batched_hourly",
+      "info_alerts": "daily_summary"
+    },
+    "recommendation_preferences": {
+      "detail_level": "detailed",
+      "risk_tolerance": "moderate",
+      "typical_acceptance_rate": 0.62,
+      "prefers_explanation_detail": "detailed"
+    },
+    "historical_performance": {
+      "avg_campaign_success_rate": 0.82,
+      "recommendations_received_30d": 45,
+      "recommendations_accepted_30d": 28,
+      "avg_response_time_minutes": 12
+    },
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00",
+      "timezone": "America/Chicago"
+    },
+    "out_of_office": false,
+    "backup_trader": "trader_bravo"
+  },
+  {
+    "trader_id": "trader_bravo",
+    "email": "bravo@example.com",
+    "slack_user_id": "UBRAVO02",
+    "name": "Trader Bravo",
+    "experience_level": "senior",
+    "years_experience": 5,
+    "active_campaigns": 38,
+    "notification_preferences": {
+      "critical_alerts": "immediate",
+      "warning_alerts": "immediate",
+      "info_alerts": "batched_hourly"
+    },
+    "recommendation_preferences": {
+      "detail_level": "brief",
+      "risk_tolerance": "conservative",
+      "typical_acceptance_rate": 0.55,
+      "prefers_explanation_detail": "brief"
+    },
+    "historical_performance": {
+      "avg_campaign_success_rate": 0.88,
+      "recommendations_received_30d": 32,
+      "recommendations_accepted_30d": 18,
+      "avg_response_time_minutes": 8
+    },
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00",
+      "timezone": "America/New_York"
+    },
+    "out_of_office": false,
+    "backup_trader": "trader_delta"
+  },
+  {
+    "trader_id": "trader_delta",
+    "email": "delta@example.com",
+    "slack_user_id": "UCHARL03",
+    "name": "Trader Delta",
+    "experience_level": "senior",
+    "years_experience": 7,
+    "active_campaigns": 52,
+    "notification_preferences": {
+      "critical_alerts": "immediate",
+      "warning_alerts": "batched_hourly",
+      "info_alerts": "daily_summary"
+    },
+    "recommendation_preferences": {
+      "detail_level": "moderate",
+      "risk_tolerance": "balanced",
+      "typical_acceptance_rate": 0.71,
+      "prefers_explanation_detail": "moderate"
+    },
+    "historical_performance": {
+      "avg_campaign_success_rate": 0.91,
+      "recommendations_received_30d": 58,
+      "recommendations_accepted_30d": 41,
+      "avg_response_time_minutes": 15
+    },
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00",
+      "timezone": "America/Los_Angeles"
+    },
+    "out_of_office": false,
+    "backup_trader": "trader_echo"
+  },
+  {
+    "trader_id": "trader_echo",
+    "email": "echo@example.com",
+    "slack_user_id": "UDELTA04",
+    "name": "Trader Echo",
+    "experience_level": "intermediate",
+    "years_experience": 4,
+    "active_campaigns": 35,
+    "notification_preferences": {
+      "critical_alerts": "immediate",
+      "warning_alerts": "batched_hourly",
+      "info_alerts": "daily_summary"
+    },
+    "recommendation_preferences": {
+      "detail_level": "detailed",
+      "risk_tolerance": "aggressive",
+      "typical_acceptance_rate": 0.78,
+      "prefers_explanation_detail": "detailed"
+    },
+    "historical_performance": {
+      "avg_campaign_success_rate": 0.79,
+      "recommendations_received_30d": 38,
+      "recommendations_accepted_30d": 30,
+      "avg_response_time_minutes": 10
+    },
+    "working_hours": {
+      "start": "09:00",
+      "end": "19:00",
+      "timezone": "America/Denver"
+    },
+    "out_of_office": false,
+    "backup_trader": "trader_charlie"
+  },
+  {
+    "trader_id": "trader_charlie",
+    "email": "charlie@example.com",
+    "slack_user_id": "UECHO05",
+    "name": "Trader Charlie",
+    "experience_level": "intermediate",
+    "years_experience": 4,
+    "active_campaigns": 33,
+    "notification_preferences": {
+      "critical_alerts": "immediate",
+      "warning_alerts": "batched_hourly",
+      "info_alerts": "daily_summary"
+    },
+    "recommendation_preferences": {
+      "detail_level": "moderate",
+      "risk_tolerance": "moderate",
+      "typical_acceptance_rate": 0.65,
+      "prefers_explanation_detail": "moderate"
+    },
+    "historical_performance": {
+      "avg_campaign_success_rate": 0.84,
+      "recommendations_received_30d": 41,
+      "recommendations_accepted_30d": 27,
+      "avg_response_time_minutes": 14
+    },
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00",
+      "timezone": "America/Phoenix"
+    },
+    "out_of_office": false,
+    "backup_trader": "trader_alpha"
+  }
+]

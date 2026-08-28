@@ -1,0 +1,110 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Campaign Market Intelligence API",
+    "description": "Get current market conditions (CPM floors, competition levels, inventory availability) for a geo/industry combination or campaign.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "${FUNCTION_URL}",
+      "description": "Lambda Function URL backend"
+    }
+  ],
+  "paths": {
+    "/": {
+      "post": {
+        "operationId": "get_market_intelligence",
+        "summary": "Get current market conditions for a geo/industry combination or campaign",
+        "description": "Returns CPM floors, competition levels, inventory availability, and pricing intelligence for a specific geographic market and industry vertical. Can accept either geo+industry or a campaign_id (which resolves to the campaign's geo and industry).",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "geo": {
+                    "type": "string",
+                    "description": "Geographic market (e.g. 'Chicago', 'Atlanta')"
+                  },
+                  "industry": {
+                    "type": "string",
+                    "description": "Industry vertical (e.g. 'Automotive', 'Healthcare')"
+                  },
+                  "campaign_id": {
+                    "type": "string",
+                    "description": "Campaign ID — alternative to providing geo+industry directly"
+                  }
+                }
+              },
+              "examples": {
+                "by_campaign": {
+                  "summary": "Look up by campaign ID",
+                  "value": {"campaign_id": "4782"}
+                },
+                "by_geo_industry": {
+                  "summary": "Look up by geo and industry",
+                  "value": {"geo": "Chicago", "industry": "Automotive"}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Market intelligence data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "market_segment": {"type": "string"},
+                    "geo": {"type": "string"},
+                    "industry": {"type": "string"},
+                    "pricing_intelligence": {
+                      "type": "object",
+                      "properties": {
+                        "current_cpm_floor": {"type": "number"},
+                        "cpm_trend_pct": {"type": "number"},
+                        "price_percentiles": {"type": "object"}
+                      }
+                    },
+                    "competition": {
+                      "type": "object",
+                      "properties": {
+                        "active_competitors": {"type": "integer"},
+                        "new_entrants_24h": {"type": "integer"},
+                        "competition_level": {"type": "string"}
+                      }
+                    },
+                    "inventory": {
+                      "type": "object",
+                      "properties": {
+                        "daily_impressions_available": {"type": "integer"},
+                        "demand_supply_ratio": {"type": "number"}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

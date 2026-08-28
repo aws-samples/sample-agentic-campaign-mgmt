@@ -1,0 +1,5 @@
+# Extra packages for the SageMaker sklearn container.
+# The sklearn container ships with numpy and scikit-learn pre-installed.
+# SageMaker pip-installs these into the container when the endpoint starts.
+xgboost>=2.0.0
+joblib>=1.3.0

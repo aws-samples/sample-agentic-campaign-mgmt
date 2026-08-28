@@ -1,0 +1,1154 @@
+[
+  {
+    "recommendation_id": "rec_f2e39894",
+    "campaign_id": "9638",
+    "timestamp": "2026-02-16T06:07:49.695556",
+    "recommendation_type": "bid_adjustment",
+    "recommendation": {
+      "type": "bid_adjustment",
+      "current_value": 5.06,
+      "recommended_value": 6.59,
+      "change_pct": 0.304
+    },
+    "confidence_score": 0.68,
+    "status": "accepted",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.187,
+      "delivery_improvement": 0.165,
+      "recovery_time_hours": 21
+    },
+    "accepted_at": "2026-02-16T07:50:49.695556",
+    "applied_at": "2026-02-16T07:01:49.695556",
+    "outcome": {
+      "measured_at": "2026-02-17T21:07:49.695556",
+      "actual_win_rate_improvement": 0.155,
+      "actual_delivery_improvement": 0.172,
+      "outcome_status": "as_predicted",
+      "trader_feedback": "Worked well"
+    }
+  },
+  {
+    "recommendation_id": "rec_d9512a7e",
+    "campaign_id": "9573",
+    "timestamp": "2026-02-05T13:20:41.695675",
+    "recommendation_type": "bid_adjustment",
+    "recommendation": {
+      "type": "bid_adjustment",
+      "current_value": 3.83,
+      "recommended_value": 4.5,
+      "change_pct": 0.175
+    },
+    "confidence_score": 0.77,
+    "status": "expired",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.193,
+      "delivery_improvement": 0.27,
+      "recovery_time_hours": 17
+    }
+  },
+  {
+    "recommendation_id": "rec_5a40a792",
+    "campaign_id": "5709",
+    "timestamp": "2026-02-11T12:32:10.695709",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.76,
+    "status": "pending",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.128,
+      "delivery_improvement": 0.237,
+      "recovery_time_hours": 40
+    }
+  },
+  {
+    "recommendation_id": "rec_eaa0218f",
+    "campaign_id": "9054",
+    "timestamp": "2026-02-01T00:49:10.695730",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.7,
+    "status": "accepted",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.069,
+      "delivery_improvement": 0.215,
+      "recovery_time_hours": 31
+    },
+    "accepted_at": "2026-02-01T01:59:10.695730",
+    "applied_at": "2026-02-01T02:30:10.695730",
+    "outcome": {
+      "measured_at": "2026-02-02T06:49:10.695730",
+      "actual_win_rate_improvement": 0.075,
+      "actual_delivery_improvement": 0.233,
+      "outcome_status": "worse_than_predicted",
+      "trader_feedback": "Worked well"
+    }
+  },
+  {
+    "recommendation_id": "rec_a9ce12db",
+    "campaign_id": "7133",
+    "timestamp": "2026-01-29T15:24:39.695769",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.85,
+    "status": "accepted",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.152,
+      "delivery_improvement": 0.169,
+      "recovery_time_hours": 38
+    },
+    "accepted_at": "2026-01-29T15:49:39.695769",
+    "applied_at": "2026-01-29T16:30:39.695769",
+    "outcome": {
+      "measured_at": "2026-02-01T13:24:39.695769",
+      "actual_win_rate_improvement": 0.156,
+      "actual_delivery_improvement": 0.138,
+      "outcome_status": "as_predicted",
+      "trader_feedback": ""
+    }
+  },
+  {
+    "recommendation_id": "rec_0ebc196c",
+    "campaign_id": "5597",
+    "timestamp": "2026-02-16T07:44:18.695801",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.68,
+    "status": "rejected",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.133,
+      "delivery_improvement": 0.252,
+      "recovery_time_hours": 45
+    },
+    "rejected_at": "2026-02-16T08:03:18.695801",
+    "rejection_reason": "Budget constraints"
+  },
+  {
+    "recommendation_id": "rec_a272de4a",
+    "campaign_id": "5856",
+    "timestamp": "2026-02-16T17:31:46.695825",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.78,
+    "status": "rejected",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.08,
+      "delivery_improvement": 0.155,
+      "recovery_time_hours": 46
+    },
+    "rejected_at": "2026-02-16T18:08:46.695825",
+    "rejection_reason": "Budget constraints"
+  },
+  {
+    "recommendation_id": "rec_980b038a",
+    "campaign_id": "9776",
+    "timestamp": "2026-01-27T06:19:07.695847",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.91,
+    "status": "accepted",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.112,
+      "delivery_improvement": 0.219,
+      "recovery_time_hours": 20
+    },
+    "accepted_at": "2026-01-27T07:19:07.695847",
+    "applied_at": "2026-01-27T07:44:07.695847",
+    "outcome": {
+      "measured_at": "2026-01-29T00:19:07.695847",
+      "actual_win_rate_improvement": 0.114,
+      "actual_delivery_improvement": 0.252,
+      "outcome_status": "as_predicted",
+      "trader_feedback": "Worked well"
+    }
+  },
+  {
+    "recommendation_id": "rec_fcb7ad0f",
+    "campaign_id": "8605",
+    "timestamp": "2026-01-24T17:11:48.695879",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.81,
+    "status": "rejected",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.14,
+      "delivery_improvement": 0.135,
+      "recovery_time_hours": 26
+    },
+    "rejected_at": "2026-01-24T18:04:48.695879",
+    "rejection_reason": "Different approach preferred"
+  },
+  {
+    "recommendation_id": "rec_17d7ffe3",
+    "campaign_id": "5689",
+    "timestamp": "2026-01-24T07:39:57.695903",
+    "recommendation_type": "bid_adjustment",
+    "recommendation": {
+      "type": "bid_adjustment",
+      "current_value": 4.81,
+      "recommended_value": 5.73,
+      "change_pct": 0.191
+    },
+    "confidence_score": 0.84,
+    "status": "accepted",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.129,
+      "delivery_improvement": 0.29,
+      "recovery_time_hours": 47
+    },
+    "accepted_at": "2026-01-24T08:44:57.695903",
+    "applied_at": "2026-01-24T08:39:57.695903",
+    "outcome": {
+      "measured_at": "2026-01-25T07:39:57.695903",
+      "actual_win_rate_improvement": 0.137,
+      "actual_delivery_improvement": 0.271,
+      "outcome_status": "as_predicted",
+      "trader_feedback": ""
+    }
+  },
+  {
+    "recommendation_id": "rec_abedfd5b",
+    "campaign_id": "6487",
+    "timestamp": "2026-01-30T14:49:24.695936",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.72,
+    "status": "expired",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.078,
+      "delivery_improvement": 0.243,
+      "recovery_time_hours": 28
+    }
+  },
+  {
+    "recommendation_id": "rec_159bbc59",
+    "campaign_id": "9076",
+    "timestamp": "2026-01-21T18:23:54.695953",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.75,
+    "status": "pending",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.149,
+      "delivery_improvement": 0.106,
+      "recovery_time_hours": 14
+    }
+  },
+  {
+    "recommendation_id": "rec_7e7e9d9b",
+    "campaign_id": "7176",
+    "timestamp": "2026-01-31T10:39:53.695970",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.94,
+    "status": "expired",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.107,
+      "delivery_improvement": 0.224,
+      "recovery_time_hours": 20
+    }
+  },
+  {
+    "recommendation_id": "rec_70cdafde",
+    "campaign_id": "6771",
+    "timestamp": "2026-01-26T06:07:41.695989",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.87,
+    "status": "expired",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.191,
+      "delivery_improvement": 0.205,
+      "recovery_time_hours": 36
+    }
+  },
+  {
+    "recommendation_id": "rec_647468c6",
+    "campaign_id": "7014",
+    "timestamp": "2026-01-23T00:34:39.696007",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.74,
+    "status": "rejected",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.177,
+      "delivery_improvement": 0.111,
+      "recovery_time_hours": 23
+    },
+    "rejected_at": "2026-01-23T01:08:39.696007",
+    "rejection_reason": "Different approach preferred"
+  },
+  {
+    "recommendation_id": "rec_b1439634",
+    "campaign_id": "6621",
+    "timestamp": "2026-01-24T14:24:39.696027",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.95,
+    "status": "expired",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.18,
+      "delivery_improvement": 0.138,
+      "recovery_time_hours": 23
+    }
+  },
+  {
+    "recommendation_id": "rec_fa4cd54f",
+    "campaign_id": "7467",
+    "timestamp": "2026-01-26T04:20:01.696044",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.75,
+    "status": "expired",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.164,
+      "delivery_improvement": 0.253,
+      "recovery_time_hours": 30
+    }
+  },
+  {
+    "recommendation_id": "rec_91c21c20",
+    "campaign_id": "4362",
+    "timestamp": "2026-01-28T01:19:50.696061",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.67,
+    "status": "expired",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.144,
+      "delivery_improvement": 0.224,
+      "recovery_time_hours": 46
+    }
+  },
+  {
+    "recommendation_id": "rec_ad862e72",
+    "campaign_id": "6869",
+    "timestamp": "2026-02-16T23:24:26.696077",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.87,
+    "status": "rejected",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.174,
+      "delivery_improvement": 0.151,
+      "recovery_time_hours": 44
+    },
+    "rejected_at": "2026-02-17T00:22:26.696077",
+    "rejection_reason": "Different approach preferred"
+  },
+  {
+    "recommendation_id": "rec_503a6e3b",
+    "campaign_id": "9716",
+    "timestamp": "2026-01-31T18:14:25.696097",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.85,
+    "status": "pending",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.051,
+      "delivery_improvement": 0.214,
+      "recovery_time_hours": 45
+    }
+  },
+  {
+    "recommendation_id": "rec_eb04122e",
+    "campaign_id": "7883",
+    "timestamp": "2026-01-31T18:40:51.696113",
+    "recommendation_type": "bid_adjustment",
+    "recommendation": {
+      "type": "bid_adjustment",
+      "current_value": 5.69,
+      "recommended_value": 7.48,
+      "change_pct": 0.315
+    },
+    "confidence_score": 0.84,
+    "status": "expired",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.124,
+      "delivery_improvement": 0.218,
+      "recovery_time_hours": 47
+    }
+  },
+  {
+    "recommendation_id": "rec_0632e5c9",
+    "campaign_id": "5826",
+    "timestamp": "2026-02-08T17:03:46.696133",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.86,
+    "status": "expired",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.165,
+      "delivery_improvement": 0.258,
+      "recovery_time_hours": 14
+    }
+  },
+  {
+    "recommendation_id": "rec_8f7c6632",
+    "campaign_id": "8217",
+    "timestamp": "2026-01-23T15:19:48.696149",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.68,
+    "status": "rejected",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.095,
+      "delivery_improvement": 0.208,
+      "recovery_time_hours": 45
+    },
+    "rejected_at": "2026-01-23T16:10:48.696149",
+    "rejection_reason": "Client restrictions"
+  },
+  {
+    "recommendation_id": "rec_d027f41a",
+    "campaign_id": "5599",
+    "timestamp": "2026-02-15T08:56:30.696170",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.89,
+    "status": "accepted",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.13,
+      "delivery_improvement": 0.226,
+      "recovery_time_hours": 16
+    },
+    "accepted_at": "2026-02-15T09:19:30.696170",
+    "applied_at": "2026-02-15T09:06:30.696170",
+    "outcome": {
+      "measured_at": "2026-02-17T16:56:30.696170",
+      "actual_win_rate_improvement": 0.128,
+      "actual_delivery_improvement": 0.244,
+      "outcome_status": "better_than_predicted",
+      "trader_feedback": ""
+    }
+  },
+  {
+    "recommendation_id": "rec_a49f8ccb",
+    "campaign_id": "9520",
+    "timestamp": "2026-01-27T12:00:54.696199",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.81,
+    "status": "pending",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.094,
+      "delivery_improvement": 0.269,
+      "recovery_time_hours": 23
+    }
+  },
+  {
+    "recommendation_id": "rec_1fc0a26b",
+    "campaign_id": "6081",
+    "timestamp": "2026-01-27T14:37:31.696216",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.86,
+    "status": "accepted",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.113,
+      "delivery_improvement": 0.249,
+      "recovery_time_hours": 43
+    },
+    "accepted_at": "2026-01-27T14:45:31.696216",
+    "applied_at": "2026-01-27T15:03:31.696216",
+    "outcome": {
+      "measured_at": "2026-01-30T03:37:31.696216",
+      "actual_win_rate_improvement": 0.133,
+      "actual_delivery_improvement": 0.196,
+      "outcome_status": "as_predicted",
+      "trader_feedback": ""
+    }
+  },
+  {
+    "recommendation_id": "rec_3ebabef1",
+    "campaign_id": "4530",
+    "timestamp": "2026-02-17T02:34:32.696245",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.86,
+    "status": "rejected",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.162,
+      "delivery_improvement": 0.287,
+      "recovery_time_hours": 32
+    },
+    "rejected_at": "2026-02-17T03:18:32.696245",
+    "rejection_reason": "Timing not right"
+  },
+  {
+    "recommendation_id": "rec_62adcb4b",
+    "campaign_id": "7521",
+    "timestamp": "2026-01-30T07:22:13.696266",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.83,
+    "status": "pending",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.17,
+      "delivery_improvement": 0.299,
+      "recovery_time_hours": 15
+    }
+  },
+  {
+    "recommendation_id": "rec_c4fc0243",
+    "campaign_id": "7186",
+    "timestamp": "2026-02-07T07:35:16.696282",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.81,
+    "status": "accepted",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.14,
+      "delivery_improvement": 0.173,
+      "recovery_time_hours": 13
+    },
+    "accepted_at": "2026-02-07T09:25:16.696282",
+    "applied_at": "2026-02-07T08:09:16.696282",
+    "outcome": {
+      "measured_at": "2026-02-10T07:35:16.696282",
+      "actual_win_rate_improvement": 0.134,
+      "actual_delivery_improvement": 0.195,
+      "outcome_status": "as_predicted",
+      "trader_feedback": "Good call"
+    }
+  },
+  {
+    "recommendation_id": "rec_d360c2f4",
+    "campaign_id": "8724",
+    "timestamp": "2026-02-02T17:30:14.696309",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.71,
+    "status": "pending",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.12,
+      "delivery_improvement": 0.118,
+      "recovery_time_hours": 12
+    }
+  },
+  {
+    "recommendation_id": "rec_d65fc349",
+    "campaign_id": "7369",
+    "timestamp": "2026-01-23T09:28:08.696325",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.89,
+    "status": "accepted",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.167,
+      "delivery_improvement": 0.297,
+      "recovery_time_hours": 19
+    },
+    "accepted_at": "2026-01-23T09:58:08.696325",
+    "applied_at": "2026-01-23T11:02:08.696325",
+    "outcome": {
+      "measured_at": "2026-01-25T12:28:08.696325",
+      "actual_win_rate_improvement": 0.162,
+      "actual_delivery_improvement": 0.326,
+      "outcome_status": "worse_than_predicted",
+      "trader_feedback": "Worked well"
+    }
+  },
+  {
+    "recommendation_id": "rec_1589fbc2",
+    "campaign_id": "8166",
+    "timestamp": "2026-02-07T02:25:06.696352",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.75,
+    "status": "accepted",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.19,
+      "delivery_improvement": 0.187,
+      "recovery_time_hours": 36
+    },
+    "accepted_at": "2026-02-07T02:33:06.696352",
+    "applied_at": "2026-02-07T02:56:06.696352",
+    "outcome": {
+      "measured_at": "2026-02-10T02:25:06.696352",
+      "actual_win_rate_improvement": 0.16,
+      "actual_delivery_improvement": 0.202,
+      "outcome_status": "better_than_predicted",
+      "trader_feedback": "Helped recover the campaign"
+    }
+  },
+  {
+    "recommendation_id": "rec_8b1c23a0",
+    "campaign_id": "5663",
+    "timestamp": "2026-01-29T10:59:35.696379",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.85,
+    "status": "rejected",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.155,
+      "delivery_improvement": 0.108,
+      "recovery_time_hours": 48
+    },
+    "rejected_at": "2026-01-29T11:19:35.696379",
+    "rejection_reason": "Client restrictions"
+  },
+  {
+    "recommendation_id": "rec_f2098f1a",
+    "campaign_id": "9112",
+    "timestamp": "2026-02-09T11:24:52.696400",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.69,
+    "status": "rejected",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.176,
+      "delivery_improvement": 0.213,
+      "recovery_time_hours": 44
+    },
+    "rejected_at": "2026-02-09T12:18:52.696400",
+    "rejection_reason": "Different approach preferred"
+  },
+  {
+    "recommendation_id": "rec_02587131",
+    "campaign_id": "8799",
+    "timestamp": "2026-02-16T21:54:12.696420",
+    "recommendation_type": "bid_adjustment",
+    "recommendation": {
+      "type": "bid_adjustment",
+      "current_value": 4.22,
+      "recommended_value": 5.72,
+      "change_pct": 0.353
+    },
+    "confidence_score": 0.74,
+    "status": "expired",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.097,
+      "delivery_improvement": 0.216,
+      "recovery_time_hours": 13
+    }
+  },
+  {
+    "recommendation_id": "rec_7d9bbace",
+    "campaign_id": "5623",
+    "timestamp": "2026-01-19T01:37:32.696439",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.89,
+    "status": "accepted",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.075,
+      "delivery_improvement": 0.203,
+      "recovery_time_hours": 48
+    },
+    "accepted_at": "2026-01-19T03:05:32.696439",
+    "applied_at": "2026-01-19T02:52:32.696439",
+    "outcome": {
+      "measured_at": "2026-01-21T05:37:32.696439",
+      "actual_win_rate_improvement": 0.087,
+      "actual_delivery_improvement": 0.231,
+      "outcome_status": "as_predicted",
+      "trader_feedback": "Worked well"
+    }
+  },
+  {
+    "recommendation_id": "rec_b397f1c1",
+    "campaign_id": "9789",
+    "timestamp": "2026-02-01T07:51:31.696466",
+    "recommendation_type": "bid_adjustment",
+    "recommendation": {
+      "type": "bid_adjustment",
+      "current_value": 5.03,
+      "recommended_value": 6.37,
+      "change_pct": 0.267
+    },
+    "confidence_score": 0.86,
+    "status": "rejected",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.107,
+      "delivery_improvement": 0.204,
+      "recovery_time_hours": 47
+    },
+    "rejected_at": "2026-02-01T08:17:31.696466",
+    "rejection_reason": "Different approach preferred"
+  },
+  {
+    "recommendation_id": "rec_19dd39a0",
+    "campaign_id": "4757",
+    "timestamp": "2026-01-19T09:39:03.696487",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.72,
+    "status": "pending",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.121,
+      "delivery_improvement": 0.264,
+      "recovery_time_hours": 38
+    }
+  },
+  {
+    "recommendation_id": "rec_79ccdb7c",
+    "campaign_id": "4670",
+    "timestamp": "2026-02-16T12:44:51.696502",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.76,
+    "status": "rejected",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.192,
+      "delivery_improvement": 0.211,
+      "recovery_time_hours": 22
+    },
+    "rejected_at": "2026-02-16T13:08:51.696502",
+    "rejection_reason": "Client restrictions"
+  },
+  {
+    "recommendation_id": "rec_4ae0b6a5",
+    "campaign_id": "9748",
+    "timestamp": "2026-02-06T22:37:47.696521",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.9,
+    "status": "expired",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.189,
+      "delivery_improvement": 0.21,
+      "recovery_time_hours": 21
+    }
+  },
+  {
+    "recommendation_id": "rec_21bdc473",
+    "campaign_id": "5809",
+    "timestamp": "2026-01-25T13:58:28.696536",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.89,
+    "status": "expired",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.165,
+      "delivery_improvement": 0.2,
+      "recovery_time_hours": 38
+    }
+  },
+  {
+    "recommendation_id": "rec_289d0f33",
+    "campaign_id": "8816",
+    "timestamp": "2026-02-12T01:13:54.696552",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.7,
+    "status": "accepted",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.09,
+      "delivery_improvement": 0.243,
+      "recovery_time_hours": 15
+    },
+    "accepted_at": "2026-02-12T02:03:54.696552",
+    "applied_at": "2026-02-12T02:25:54.696552",
+    "outcome": {
+      "measured_at": "2026-02-13T15:13:54.696552",
+      "actual_win_rate_improvement": 0.085,
+      "actual_delivery_improvement": 0.271,
+      "outcome_status": "worse_than_predicted",
+      "trader_feedback": "Worked well"
+    }
+  },
+  {
+    "recommendation_id": "rec_7090c6e9",
+    "campaign_id": "4821",
+    "timestamp": "2026-01-25T22:35:26.696580",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.74,
+    "status": "rejected",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.082,
+      "delivery_improvement": 0.136,
+      "recovery_time_hours": 34
+    },
+    "rejected_at": "2026-01-25T23:31:26.696580",
+    "rejection_reason": "Budget constraints"
+  },
+  {
+    "recommendation_id": "rec_ea4e8611",
+    "campaign_id": "4096",
+    "timestamp": "2026-01-27T14:18:12.696599",
+    "recommendation_type": "pacing_adjustment",
+    "recommendation": {
+      "type": "pacing_adjustment",
+      "description": "Recommendation for pacing_adjustment"
+    },
+    "confidence_score": 0.67,
+    "status": "pending",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.059,
+      "delivery_improvement": 0.219,
+      "recovery_time_hours": 36
+    }
+  },
+  {
+    "recommendation_id": "rec_3ef28c50",
+    "campaign_id": "7045",
+    "timestamp": "2026-01-29T23:34:19.696616",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.7,
+    "status": "expired",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.097,
+      "delivery_improvement": 0.156,
+      "recovery_time_hours": 31
+    }
+  },
+  {
+    "recommendation_id": "rec_67870f76",
+    "campaign_id": "7579",
+    "timestamp": "2026-01-24T16:06:49.696631",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.73,
+    "status": "rejected",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.128,
+      "delivery_improvement": 0.229,
+      "recovery_time_hours": 30
+    },
+    "rejected_at": "2026-01-24T16:13:49.696631",
+    "rejection_reason": "Timing not right"
+  },
+  {
+    "recommendation_id": "rec_d47470d7",
+    "campaign_id": "5591",
+    "timestamp": "2026-02-10T04:15:19.696649",
+    "recommendation_type": "bid_adjustment",
+    "recommendation": {
+      "type": "bid_adjustment",
+      "current_value": 6.94,
+      "recommended_value": 9.34,
+      "change_pct": 0.346
+    },
+    "confidence_score": 0.86,
+    "status": "rejected",
+    "trader_id": "trader_bravo",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.08,
+      "delivery_improvement": 0.229,
+      "recovery_time_hours": 41
+    },
+    "rejected_at": "2026-02-10T04:34:19.696649",
+    "rejection_reason": "Client restrictions"
+  },
+  {
+    "recommendation_id": "rec_95a3a8ff",
+    "campaign_id": "8346",
+    "timestamp": "2026-01-22T17:16:11.696685",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.94,
+    "status": "expired",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.082,
+      "delivery_improvement": 0.177,
+      "recovery_time_hours": 43
+    }
+  },
+  {
+    "recommendation_id": "rec_db73f086",
+    "campaign_id": "5831",
+    "timestamp": "2026-01-20T00:32:09.696701",
+    "recommendation_type": "creative_refresh",
+    "recommendation": {
+      "type": "creative_refresh",
+      "description": "Recommendation for creative_refresh"
+    },
+    "confidence_score": 0.72,
+    "status": "rejected",
+    "trader_id": "trader_delta",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.087,
+      "delivery_improvement": 0.234,
+      "recovery_time_hours": 18
+    },
+    "rejected_at": "2026-01-20T01:16:09.696701",
+    "rejection_reason": "Different approach preferred"
+  },
+  {
+    "recommendation_id": "rec_813cb1e5",
+    "campaign_id": "6232",
+    "timestamp": "2026-02-02T02:07:54.696721",
+    "recommendation_type": "targeting_expansion",
+    "recommendation": {
+      "type": "targeting_expansion",
+      "description": "Recommendation for targeting_expansion"
+    },
+    "confidence_score": 0.85,
+    "status": "pending",
+    "trader_id": "trader_alpha",
+    "generated_by": "agent",
+    "rationale": "Analysis of campaign performance and market conditions indicated this change would improve delivery.",
+    "expected_outcome": {
+      "win_rate_improvement": 0.163,
+      "delivery_improvement": 0.245,
+      "recovery_time_hours": 31
+    }
+  }
+]

@@ -1,0 +1,3596 @@
+[
+  {
+    "campaign_id": "4201",
+    "campaign_name": "Chevrolet February Event - Chicago",
+    "run_date": "2026-02-01",
+    "industry": "automotive",
+    "geo": "Chicago",
+    "objective": "traffic",
+    "budget_total": 12000,
+    "impressions_goal": 450000,
+    "days_total": 7,
+    "initial_state": {
+      "day_3_delivery": 0.31,
+      "day_3_win_rate": 0.09,
+      "bid_at_day_3": 3.8,
+      "market_floor_day_3": 4.5
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-02-03T10:00:00Z",
+      "action": "increase_bid",
+      "from_bid": 3.8,
+      "to_bid": 4.75,
+      "change_pct": 0.25,
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 18,
+      "final_delivery_pct": 0.95,
+      "final_win_rate": 0.28,
+      "budget_utilization": 0.98,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.89
+  },
+  {
+    "campaign_id": "3890",
+    "campaign_name": "Ford January Sale - Chicago",
+    "run_date": "2026-01-15",
+    "industry": "automotive",
+    "geo": "Chicago",
+    "objective": "traffic",
+    "budget_total": 18000,
+    "impressions_goal": 600000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.28,
+      "day_4_win_rate": 0.07,
+      "bid_at_day_4": 4.0,
+      "market_floor_day_4": 5.0
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-19T09:30:00Z",
+      "action": "increase_bid",
+      "from_bid": 4.0,
+      "to_bid": 5.2,
+      "change_pct": 0.3,
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 24,
+      "final_delivery_pct": 1.12,
+      "final_win_rate": 0.32,
+      "budget_utilization": 1.05,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.85
+  },
+  {
+    "campaign_id": "3234",
+    "campaign_name": "Booking.com Cruise Packages - Dallas",
+    "run_date": "2026-02-02",
+    "industry": "travel",
+    "geo": "Dallas",
+    "objective": "traffic",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_3_delivery": 0.098,
+      "day_3_win_rate": 0.053,
+      "bid_at_day_3": 5.71,
+      "market_floor_day_3": 6.97
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2026-02-05T01:05:02.612993",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 36,
+      "final_delivery_pct": 1.037,
+      "final_win_rate": 0.264,
+      "budget_utilization": 0.946,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.94
+  },
+  {
+    "campaign_id": "1044",
+    "campaign_name": "Fast Casual Chain Restaurant Week - Boston",
+    "run_date": "2026-01-16",
+    "industry": "food_beverage",
+    "geo": "Boston",
+    "objective": "conversions",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_5_delivery": 0.168,
+      "day_5_win_rate": 0.144,
+      "bid_at_day_5": 4.42,
+      "market_floor_day_5": 5.99
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-21T03:32:02.613126",
+      "action": "increase_bid",
+      "from_bid": 4.42,
+      "to_bid": 7.34,
+      "change_pct": 0.662,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 33,
+      "final_delivery_pct": 0.743,
+      "final_win_rate": 0.282,
+      "budget_utilization": 1.038,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.65
+  },
+  {
+    "campaign_id": "1653",
+    "campaign_name": "Humana Telemedicine - Chicago",
+    "run_date": "2026-01-09",
+    "industry": "healthcare",
+    "geo": "Chicago",
+    "objective": "conversions",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.136,
+      "day_2_win_rate": 0.062,
+      "bid_at_day_2": 3.94,
+      "market_floor_day_2": 4.52
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2026-01-11T04:39:29.613181",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 42,
+      "final_delivery_pct": 0.745,
+      "final_win_rate": 0.268,
+      "budget_utilization": 0.939,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.66
+  },
+  {
+    "campaign_id": "2547",
+    "campaign_name": "Target Flash Sale - New York",
+    "run_date": "2026-02-04",
+    "industry": "retail",
+    "geo": "New York",
+    "objective": "traffic",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_11_delivery": 0.161,
+      "day_11_win_rate": 0.113,
+      "bid_at_day_11": 3.4,
+      "market_floor_day_11": 4.58
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2026-02-15T15:25:43.613218",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 64,
+      "final_delivery_pct": 0.928,
+      "final_win_rate": 0.35,
+      "budget_utilization": 0.889,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.9
+  },
+  {
+    "campaign_id": "2407",
+    "campaign_name": "Citibank Credit Card Offer - Chicago",
+    "run_date": "2026-01-24",
+    "industry": "financial",
+    "geo": "Chicago",
+    "objective": "traffic",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_3_delivery": 0.171,
+      "day_3_win_rate": 0.145,
+      "bid_at_day_3": 5.42,
+      "market_floor_day_3": 7.26
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2026-01-27T00:44:59.613252",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 66,
+      "final_delivery_pct": 0.815,
+      "final_win_rate": 0.249,
+      "budget_utilization": 0.927,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.65
+  },
+  {
+    "campaign_id": "1206",
+    "campaign_name": "Food Delivery Catering Promo - Seattle",
+    "run_date": "2025-12-23",
+    "industry": "food_beverage",
+    "geo": "Seattle",
+    "objective": "conversions",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_9_delivery": 0.147,
+      "day_9_win_rate": 0.114,
+      "bid_at_day_9": 3.48,
+      "market_floor_day_9": 4.6
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2026-01-01T11:23:48.613282",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 18,
+      "final_delivery_pct": 0.942,
+      "final_win_rate": 0.342,
+      "budget_utilization": 0.885,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.81
+  },
+  {
+    "campaign_id": "3313",
+    "campaign_name": "Bank of America Investment Services - Seattle",
+    "run_date": "2025-12-03",
+    "industry": "financial",
+    "geo": "Seattle",
+    "objective": "traffic",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.14,
+      "day_2_win_rate": 0.106,
+      "bid_at_day_2": 4.56,
+      "market_floor_day_2": 5.29
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-05T15:48:56.613322",
+      "action": "increase_bid",
+      "from_bid": 4.56,
+      "to_bid": 5.6,
+      "change_pct": 0.23,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 55,
+      "final_delivery_pct": 0.659,
+      "final_win_rate": 0.278,
+      "budget_utilization": 1.078,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.94
+  },
+  {
+    "campaign_id": "2976",
+    "campaign_name": "Sports Arena Concert Series - Chicago",
+    "run_date": "2025-10-25",
+    "industry": "entertainment",
+    "geo": "Chicago",
+    "objective": "awareness",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_3_delivery": 0.192,
+      "day_3_win_rate": 0.136,
+      "bid_at_day_3": 3.91,
+      "market_floor_day_3": 5.37
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-10-28T05:55:39.613357",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 18,
+      "final_delivery_pct": 1.129,
+      "final_win_rate": 0.336,
+      "budget_utilization": 1.051,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.88
+  },
+  {
+    "campaign_id": "1125",
+    "campaign_name": "Anthem Urgent Care - Miami",
+    "run_date": "2025-11-27",
+    "industry": "healthcare",
+    "geo": "Miami",
+    "objective": "conversions",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_5_delivery": 0.073,
+      "day_5_win_rate": 0.107,
+      "bid_at_day_5": 3.73,
+      "market_floor_day_5": 4.93
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-12-02T04:44:48.613388",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 35,
+      "final_delivery_pct": 0.966,
+      "final_win_rate": 0.275,
+      "budget_utilization": 0.916,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.61
+  },
+  {
+    "campaign_id": "2074",
+    "campaign_name": "Ford New Model Launch - Dallas",
+    "run_date": "2025-10-03",
+    "industry": "automotive",
+    "geo": "Dallas",
+    "objective": "awareness",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_11_delivery": 0.15,
+      "day_11_win_rate": 0.131,
+      "bid_at_day_11": 3.91,
+      "market_floor_day_11": 5.24
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-10-14T00:27:11.613418",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 44,
+      "final_delivery_pct": 0.775,
+      "final_win_rate": 0.214,
+      "budget_utilization": 0.921,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.7
+  },
+  {
+    "campaign_id": "3904",
+    "campaign_name": "HomeGoods Summer Collection - Seattle",
+    "run_date": "2025-08-22",
+    "industry": "retail",
+    "geo": "Seattle",
+    "objective": "traffic",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_7_delivery": 0.2,
+      "day_7_win_rate": 0.092,
+      "bid_at_day_7": 3.65,
+      "market_floor_day_7": 4.86
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-08-29T15:42:46.613453",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 19,
+      "final_delivery_pct": 0.888,
+      "final_win_rate": 0.336,
+      "budget_utilization": 0.881,
+      "outcome_status": "success",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.61
+  },
+  {
+    "campaign_id": "2612",
+    "campaign_name": "Citibank Credit Card Offer - Atlanta",
+    "run_date": "2025-10-18",
+    "industry": "financial",
+    "geo": "Atlanta",
+    "objective": "awareness",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_2_delivery": 0.087,
+      "day_2_win_rate": 0.141,
+      "bid_at_day_2": 5.41,
+      "market_floor_day_2": 6.3
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-10-20T03:32:30.613482",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 22,
+      "final_delivery_pct": 0.991,
+      "final_win_rate": 0.265,
+      "budget_utilization": 0.963,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.72
+  },
+  {
+    "campaign_id": "2209",
+    "campaign_name": "AMC Theaters Concert Series - Chicago",
+    "run_date": "2025-09-19",
+    "industry": "entertainment",
+    "geo": "Chicago",
+    "objective": "conversions",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_5_delivery": 0.085,
+      "day_5_win_rate": 0.123,
+      "bid_at_day_5": 4.2,
+      "market_floor_day_5": 5.19
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-09-24T15:17:55.613511",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 30,
+      "final_delivery_pct": 0.803,
+      "final_win_rate": 0.277,
+      "budget_utilization": 0.901,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.94
+  },
+  {
+    "campaign_id": "3709",
+    "campaign_name": "Delta Hotel Booking - Dallas",
+    "run_date": "2025-10-13",
+    "industry": "travel",
+    "geo": "Dallas",
+    "objective": "traffic",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.099,
+      "day_2_win_rate": 0.097,
+      "bid_at_day_2": 5.05,
+      "market_floor_day_2": 6.75
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-10-15T12:56:44.613541",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 18,
+      "final_delivery_pct": 0.925,
+      "final_win_rate": 0.208,
+      "budget_utilization": 0.863,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.74
+  },
+  {
+    "campaign_id": "2234",
+    "campaign_name": "LiveNation Festival Tickets - Seattle",
+    "run_date": "2026-01-08",
+    "industry": "entertainment",
+    "geo": "Seattle",
+    "objective": "conversions",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.158,
+      "day_2_win_rate": 0.092,
+      "bid_at_day_2": 3.15,
+      "market_floor_day_2": 4.13
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-10T12:14:15.613572",
+      "action": "increase_bid",
+      "from_bid": 3.15,
+      "to_bid": 4.58,
+      "change_pct": 0.454,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 55,
+      "final_delivery_pct": 0.969,
+      "final_win_rate": 0.205,
+      "budget_utilization": 0.937,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.82
+  },
+  {
+    "campaign_id": "3153",
+    "campaign_name": "Local Arts Center Festival Tickets - Phoenix",
+    "run_date": "2026-01-17",
+    "industry": "entertainment",
+    "geo": "Phoenix",
+    "objective": "traffic",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_4_delivery": 0.07,
+      "day_4_win_rate": 0.089,
+      "bid_at_day_4": 5.12,
+      "market_floor_day_4": 5.97
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2026-01-21T01:38:30.613604",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 40,
+      "final_delivery_pct": 0.925,
+      "final_win_rate": 0.235,
+      "budget_utilization": 0.854,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.89
+  },
+  {
+    "campaign_id": "3937",
+    "campaign_name": "Bank of America Personal Loans - New York",
+    "run_date": "2025-12-27",
+    "industry": "financial",
+    "geo": "New York",
+    "objective": "traffic",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_3_delivery": 0.187,
+      "day_3_win_rate": 0.107,
+      "bid_at_day_3": 3.39,
+      "market_floor_day_3": 4.13
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-12-30T18:30:35.613639",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 29,
+      "final_delivery_pct": 0.787,
+      "final_win_rate": 0.296,
+      "budget_utilization": 0.882,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.82
+  },
+  {
+    "campaign_id": "3274",
+    "campaign_name": "Fast Casual Chain Restaurant Week - New York",
+    "run_date": "2025-09-30",
+    "industry": "food_beverage",
+    "geo": "New York",
+    "objective": "awareness",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_3_delivery": 0.085,
+      "day_3_win_rate": 0.089,
+      "bid_at_day_3": 5.99,
+      "market_floor_day_3": 8.01
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-10-03T04:10:01.613670",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 26,
+      "final_delivery_pct": 1.147,
+      "final_win_rate": 0.273,
+      "budget_utilization": 1.079,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.76
+  },
+  {
+    "campaign_id": "3158",
+    "campaign_name": "Chase Personal Loans - Denver",
+    "run_date": "2025-11-30",
+    "industry": "financial",
+    "geo": "Denver",
+    "objective": "awareness",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.181,
+      "day_2_win_rate": 0.11,
+      "bid_at_day_2": 3.35,
+      "market_floor_day_2": 4.15
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-12-02T21:18:50.613699",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 12,
+      "final_delivery_pct": 0.984,
+      "final_win_rate": 0.266,
+      "budget_utilization": 1.065,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.6
+  },
+  {
+    "campaign_id": "2700",
+    "campaign_name": "Sports Arena Theater Production - Los Angeles",
+    "run_date": "2025-09-23",
+    "industry": "entertainment",
+    "geo": "Los Angeles",
+    "objective": "awareness",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_5_delivery": 0.171,
+      "day_5_win_rate": 0.077,
+      "bid_at_day_5": 5.2,
+      "market_floor_day_5": 6.43
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-09-28T02:01:42.613728",
+      "action": "increase_bid",
+      "from_bid": 5.2,
+      "to_bid": 7.99,
+      "change_pct": 0.537,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 38,
+      "final_delivery_pct": 0.834,
+      "final_win_rate": 0.294,
+      "budget_utilization": 0.901,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.84
+  },
+  {
+    "campaign_id": "1038",
+    "campaign_name": "Food Delivery New Menu Launch - Atlanta",
+    "run_date": "2025-09-18",
+    "industry": "food_beverage",
+    "geo": "Atlanta",
+    "objective": "conversions",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.201,
+      "day_4_win_rate": 0.148,
+      "bid_at_day_4": 4.79,
+      "market_floor_day_4": 6.26
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-09-22T23:29:34.613758",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 22,
+      "final_delivery_pct": 1.09,
+      "final_win_rate": 0.255,
+      "budget_utilization": 0.929,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.76
+  },
+  {
+    "campaign_id": "2182",
+    "campaign_name": "Sports Arena Sports Events - Los Angeles",
+    "run_date": "2025-08-26",
+    "industry": "entertainment",
+    "geo": "Los Angeles",
+    "objective": "conversions",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_5_delivery": 0.138,
+      "day_5_win_rate": 0.059,
+      "bid_at_day_5": 5.47,
+      "market_floor_day_5": 7.23
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-08-31T06:23:54.613788",
+      "action": "increase_bid",
+      "from_bid": 5.47,
+      "to_bid": 8.43,
+      "change_pct": 0.542,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 26,
+      "final_delivery_pct": 0.893,
+      "final_win_rate": 0.243,
+      "budget_utilization": 1.006,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.69
+  },
+  {
+    "campaign_id": "3257",
+    "campaign_name": "BMW New Model Launch - Dallas",
+    "run_date": "2025-11-10",
+    "industry": "automotive",
+    "geo": "Dallas",
+    "objective": "awareness",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.213,
+      "day_4_win_rate": 0.145,
+      "bid_at_day_4": 3.73,
+      "market_floor_day_4": 4.43
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-14T03:16:22.613822",
+      "action": "increase_bid",
+      "from_bid": 3.73,
+      "to_bid": 5.44,
+      "change_pct": 0.458,
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 36,
+      "final_delivery_pct": 1.067,
+      "final_win_rate": 0.293,
+      "budget_utilization": 0.932,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.9
+  },
+  {
+    "campaign_id": "1951",
+    "campaign_name": "LiveNation Concert Series - New York",
+    "run_date": "2025-11-23",
+    "industry": "entertainment",
+    "geo": "New York",
+    "objective": "conversions",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.156,
+      "day_2_win_rate": 0.063,
+      "bid_at_day_2": 3.32,
+      "market_floor_day_2": 4.6
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-11-25T13:40:13.613855",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 18,
+      "final_delivery_pct": 0.974,
+      "final_win_rate": 0.262,
+      "budget_utilization": 0.963,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.71
+  },
+  {
+    "campaign_id": "3215",
+    "campaign_name": "Target Back to School - Denver",
+    "run_date": "2026-01-01",
+    "industry": "retail",
+    "geo": "Denver",
+    "objective": "awareness",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.099,
+      "day_2_win_rate": 0.141,
+      "bid_at_day_2": 3.78,
+      "market_floor_day_2": 4.43
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-03T15:26:04.613884",
+      "action": "increase_bid",
+      "from_bid": 3.78,
+      "to_bid": 5.1,
+      "change_pct": 0.348,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 68,
+      "final_delivery_pct": 0.662,
+      "final_win_rate": 0.266,
+      "budget_utilization": 1.046,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.9
+  },
+  {
+    "campaign_id": "2807",
+    "campaign_name": "Sports Arena Concert Series - New York",
+    "run_date": "2025-09-13",
+    "industry": "entertainment",
+    "geo": "New York",
+    "objective": "traffic",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_7_delivery": 0.181,
+      "day_7_win_rate": 0.146,
+      "bid_at_day_7": 3.37,
+      "market_floor_day_7": 4.29
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-09-20T01:32:39.613915",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 49,
+      "final_delivery_pct": 0.906,
+      "final_win_rate": 0.293,
+      "budget_utilization": 0.964,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.63
+  },
+  {
+    "campaign_id": "3640",
+    "campaign_name": "Fast Casual Chain Restaurant Week - Denver",
+    "run_date": "2026-01-22",
+    "industry": "food_beverage",
+    "geo": "Denver",
+    "objective": "awareness",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_7_delivery": 0.157,
+      "day_7_win_rate": 0.06,
+      "bid_at_day_7": 4.07,
+      "market_floor_day_7": 4.76
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2026-01-29T15:08:15.613948",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 36,
+      "final_delivery_pct": 1.009,
+      "final_win_rate": 0.239,
+      "budget_utilization": 1.016,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.93
+  },
+  {
+    "campaign_id": "2317",
+    "campaign_name": "Best Buy Summer Collection - Seattle",
+    "run_date": "2026-02-03",
+    "industry": "retail",
+    "geo": "Seattle",
+    "objective": "conversions",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_4_delivery": 0.053,
+      "day_4_win_rate": 0.093,
+      "bid_at_day_4": 4.45,
+      "market_floor_day_4": 5.97
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-02-07T17:58:41.613977",
+      "action": "increase_bid",
+      "from_bid": 4.45,
+      "to_bid": 6.95,
+      "change_pct": 0.561,
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 22,
+      "final_delivery_pct": 1.0,
+      "final_win_rate": 0.217,
+      "budget_utilization": 1.089,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.88
+  },
+  {
+    "campaign_id": "3784",
+    "campaign_name": "Nissan New Model Launch - Phoenix",
+    "run_date": "2025-11-28",
+    "industry": "automotive",
+    "geo": "Phoenix",
+    "objective": "conversions",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_3_delivery": 0.082,
+      "day_3_win_rate": 0.094,
+      "bid_at_day_3": 4.82,
+      "market_floor_day_3": 5.4
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-12-01T14:59:20.614008",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 12,
+      "final_delivery_pct": 0.99,
+      "final_win_rate": 0.234,
+      "budget_utilization": 0.866,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.66
+  },
+  {
+    "campaign_id": "1435",
+    "campaign_name": "Coffee Shop New Menu Launch - Seattle",
+    "run_date": "2025-12-27",
+    "industry": "food_beverage",
+    "geo": "Seattle",
+    "objective": "traffic",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.14,
+      "day_2_win_rate": 0.099,
+      "bid_at_day_2": 5.27,
+      "market_floor_day_2": 6.57
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-29T19:24:50.614038",
+      "action": "increase_bid",
+      "from_bid": 5.27,
+      "to_bid": 7.46,
+      "change_pct": 0.417,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 34,
+      "final_delivery_pct": 0.868,
+      "final_win_rate": 0.232,
+      "budget_utilization": 0.863,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.62
+  },
+  {
+    "campaign_id": "2459",
+    "campaign_name": "TJ Maxx Flash Sale - Seattle",
+    "run_date": "2025-10-21",
+    "industry": "retail",
+    "geo": "Seattle",
+    "objective": "conversions",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_8_delivery": 0.161,
+      "day_8_win_rate": 0.074,
+      "bid_at_day_8": 4.87,
+      "market_floor_day_8": 6.22
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-10-29T08:10:05.614069",
+      "action": "increase_bid",
+      "from_bid": 4.87,
+      "to_bid": 6.99,
+      "change_pct": 0.433,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 51,
+      "final_delivery_pct": 0.87,
+      "final_win_rate": 0.295,
+      "budget_utilization": 1.084,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.8
+  },
+  {
+    "campaign_id": "1867",
+    "campaign_name": "Sports Arena Festival Tickets - Dallas",
+    "run_date": "2025-08-31",
+    "industry": "entertainment",
+    "geo": "Dallas",
+    "objective": "awareness",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_8_delivery": 0.177,
+      "day_8_win_rate": 0.111,
+      "bid_at_day_8": 5.3,
+      "market_floor_day_8": 7.13
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-09-08T10:54:04.614099",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 33,
+      "final_delivery_pct": 0.899,
+      "final_win_rate": 0.285,
+      "budget_utilization": 0.919,
+      "outcome_status": "success",
+      "goal_achieved": false,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.77
+  },
+  {
+    "campaign_id": "1264",
+    "campaign_name": "Chase Credit Card Offer - Seattle",
+    "run_date": "2026-01-16",
+    "industry": "financial",
+    "geo": "Seattle",
+    "objective": "traffic",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_3_delivery": 0.126,
+      "day_3_win_rate": 0.131,
+      "bid_at_day_3": 4.12,
+      "market_floor_day_3": 5.13
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-19T01:47:56.614128",
+      "action": "increase_bid",
+      "from_bid": 4.12,
+      "to_bid": 5.83,
+      "change_pct": 0.417,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 58,
+      "final_delivery_pct": 0.99,
+      "final_win_rate": 0.256,
+      "budget_utilization": 1.009,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.83
+  },
+  {
+    "campaign_id": "1811",
+    "campaign_name": "Local Restaurant Catering Promo - Boston",
+    "run_date": "2025-12-02",
+    "industry": "food_beverage",
+    "geo": "Boston",
+    "objective": "traffic",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.163,
+      "day_2_win_rate": 0.111,
+      "bid_at_day_2": 5.65,
+      "market_floor_day_2": 7.28
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-12-04T14:27:27.614160",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 25,
+      "final_delivery_pct": 0.753,
+      "final_win_rate": 0.245,
+      "budget_utilization": 1.05,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.89
+  },
+  {
+    "campaign_id": "3200",
+    "campaign_name": "Sports Arena Theater Production - Dallas",
+    "run_date": "2025-10-27",
+    "industry": "entertainment",
+    "geo": "Dallas",
+    "objective": "awareness",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_6_delivery": 0.151,
+      "day_6_win_rate": 0.101,
+      "bid_at_day_6": 3.89,
+      "market_floor_day_6": 4.96
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-02T15:50:12.614188",
+      "action": "increase_bid",
+      "from_bid": 3.89,
+      "to_bid": 5.94,
+      "change_pct": 0.526,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 32,
+      "final_delivery_pct": 0.658,
+      "final_win_rate": 0.271,
+      "budget_utilization": 1.044,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.65
+  },
+  {
+    "campaign_id": "1503",
+    "campaign_name": "Anthem Health Insurance - Chicago",
+    "run_date": "2026-01-13",
+    "industry": "healthcare",
+    "geo": "Chicago",
+    "objective": "conversions",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.144,
+      "day_2_win_rate": 0.134,
+      "bid_at_day_2": 3.63,
+      "market_floor_day_2": 4.61
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-15T02:22:54.614221",
+      "action": "increase_bid",
+      "from_bid": 3.63,
+      "to_bid": 5.07,
+      "change_pct": 0.4,
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 16,
+      "final_delivery_pct": 1.119,
+      "final_win_rate": 0.328,
+      "budget_utilization": 0.931,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.83
+  },
+  {
+    "campaign_id": "2201",
+    "campaign_name": "Aetna Urgent Care - Los Angeles",
+    "run_date": "2025-12-26",
+    "industry": "healthcare",
+    "geo": "Los Angeles",
+    "objective": "awareness",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.101,
+      "day_2_win_rate": 0.115,
+      "bid_at_day_2": 4.81,
+      "market_floor_day_2": 5.9
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-28T01:13:34.614255",
+      "action": "increase_bid",
+      "from_bid": 4.81,
+      "to_bid": 6.95,
+      "change_pct": 0.443,
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 34,
+      "final_delivery_pct": 1.056,
+      "final_win_rate": 0.35,
+      "budget_utilization": 0.91,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.62
+  },
+  {
+    "campaign_id": "3908",
+    "campaign_name": "Chevrolet Test Drive Campaign - Miami",
+    "run_date": "2025-11-27",
+    "industry": "automotive",
+    "geo": "Miami",
+    "objective": "awareness",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.25,
+      "day_4_win_rate": 0.103,
+      "bid_at_day_4": 5.06,
+      "market_floor_day_4": 5.78
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-01T18:25:52.614286",
+      "action": "increase_bid",
+      "from_bid": 5.06,
+      "to_bid": 6.24,
+      "change_pct": 0.233,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 72,
+      "final_delivery_pct": 0.988,
+      "final_win_rate": 0.325,
+      "budget_utilization": 0.96,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.72
+  },
+  {
+    "campaign_id": "1878",
+    "campaign_name": "Walmart Holiday Sale - Miami",
+    "run_date": "2025-09-11",
+    "industry": "retail",
+    "geo": "Miami",
+    "objective": "traffic",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_8_delivery": 0.157,
+      "day_8_win_rate": 0.062,
+      "bid_at_day_8": 4.09,
+      "market_floor_day_8": 5.66
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-09-19T09:02:01.614317",
+      "action": "increase_bid",
+      "from_bid": 4.09,
+      "to_bid": 6.1,
+      "change_pct": 0.492,
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 25,
+      "final_delivery_pct": 1.042,
+      "final_win_rate": 0.309,
+      "budget_utilization": 1.061,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.79
+  },
+  {
+    "campaign_id": "1100",
+    "campaign_name": "Chevrolet Spring Sale - New York",
+    "run_date": "2025-12-05",
+    "industry": "automotive",
+    "geo": "New York",
+    "objective": "conversions",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_2_delivery": 0.042,
+      "day_2_win_rate": 0.116,
+      "bid_at_day_2": 3.29,
+      "market_floor_day_2": 4.38
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-12-07T03:05:58.614348",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 41,
+      "final_delivery_pct": 0.823,
+      "final_win_rate": 0.271,
+      "budget_utilization": 0.936,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.93
+  },
+  {
+    "campaign_id": "2684",
+    "campaign_name": "Local Arts Center Concert Series - Miami",
+    "run_date": "2025-11-24",
+    "industry": "entertainment",
+    "geo": "Miami",
+    "objective": "conversions",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.134,
+      "day_2_win_rate": 0.149,
+      "bid_at_day_2": 4.37,
+      "market_floor_day_2": 5.79
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-26T10:14:23.614376",
+      "action": "increase_bid",
+      "from_bid": 4.37,
+      "to_bid": 6.71,
+      "change_pct": 0.536,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 49,
+      "final_delivery_pct": 0.935,
+      "final_win_rate": 0.32,
+      "budget_utilization": 1.098,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.89
+  },
+  {
+    "campaign_id": "3295",
+    "campaign_name": "Chevrolet Spring Sale - Dallas",
+    "run_date": "2025-09-04",
+    "industry": "automotive",
+    "geo": "Dallas",
+    "objective": "awareness",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.111,
+      "day_2_win_rate": 0.086,
+      "bid_at_day_2": 4.74,
+      "market_floor_day_2": 6.29
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-09-06T02:24:17.614407",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 17,
+      "final_delivery_pct": 1.108,
+      "final_win_rate": 0.269,
+      "budget_utilization": 1.007,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.66
+  },
+  {
+    "campaign_id": "3820",
+    "campaign_name": "UnitedHealth Health Insurance - Boston",
+    "run_date": "2025-12-01",
+    "industry": "healthcare",
+    "geo": "Boston",
+    "objective": "conversions",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_5_delivery": 0.227,
+      "day_5_win_rate": 0.109,
+      "bid_at_day_5": 5.11,
+      "market_floor_day_5": 6.48
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-12-06T04:36:38.614438",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 12,
+      "final_delivery_pct": 1.019,
+      "final_win_rate": 0.268,
+      "budget_utilization": 0.991,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.68
+  },
+  {
+    "campaign_id": "2821",
+    "campaign_name": "BMW Clearance Event - New York",
+    "run_date": "2025-12-07",
+    "industry": "automotive",
+    "geo": "New York",
+    "objective": "awareness",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.164,
+      "day_4_win_rate": 0.146,
+      "bid_at_day_4": 5.18,
+      "market_floor_day_4": 7.14
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-11T12:26:34.614466",
+      "action": "increase_bid",
+      "from_bid": 5.18,
+      "to_bid": 8.25,
+      "change_pct": 0.593,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 36,
+      "final_delivery_pct": 0.909,
+      "final_win_rate": 0.228,
+      "budget_utilization": 0.855,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.63
+  },
+  {
+    "campaign_id": "3580",
+    "campaign_name": "Chevrolet Spring Sale - Miami",
+    "run_date": "2025-10-29",
+    "industry": "automotive",
+    "geo": "Miami",
+    "objective": "conversions",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_5_delivery": 0.134,
+      "day_5_win_rate": 0.132,
+      "bid_at_day_5": 5.18,
+      "market_floor_day_5": 6.51
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-03T14:11:30.614495",
+      "action": "increase_bid",
+      "from_bid": 5.18,
+      "to_bid": 8.09,
+      "change_pct": 0.56,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 37,
+      "final_delivery_pct": 0.917,
+      "final_win_rate": 0.336,
+      "budget_utilization": 0.917,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.84
+  },
+  {
+    "campaign_id": "1822",
+    "campaign_name": "Booking.com Cruise Packages - Chicago",
+    "run_date": "2025-10-21",
+    "industry": "travel",
+    "geo": "Chicago",
+    "objective": "traffic",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_3_delivery": 0.187,
+      "day_3_win_rate": 0.053,
+      "bid_at_day_3": 4.33,
+      "market_floor_day_3": 5.4
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-10-24T10:30:33.614527",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 69,
+      "final_delivery_pct": 0.961,
+      "final_win_rate": 0.294,
+      "budget_utilization": 1.02,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.62
+  },
+  {
+    "campaign_id": "3124",
+    "campaign_name": "Citibank Credit Card Offer - Dallas",
+    "run_date": "2025-12-04",
+    "industry": "financial",
+    "geo": "Dallas",
+    "objective": "traffic",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_4_delivery": 0.132,
+      "day_4_win_rate": 0.055,
+      "bid_at_day_4": 3.95,
+      "market_floor_day_4": 5.36
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-08T02:12:05.614559",
+      "action": "increase_bid",
+      "from_bid": 3.95,
+      "to_bid": 6.07,
+      "change_pct": 0.538,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 38,
+      "final_delivery_pct": 0.889,
+      "final_win_rate": 0.264,
+      "budget_utilization": 1.053,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.71
+  },
+  {
+    "campaign_id": "2782",
+    "campaign_name": "United Airlines Flight Deals - New York",
+    "run_date": "2025-11-16",
+    "industry": "travel",
+    "geo": "New York",
+    "objective": "conversions",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_2_delivery": 0.049,
+      "day_2_win_rate": 0.142,
+      "bid_at_day_2": 3.94,
+      "market_floor_day_2": 4.65
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-18T07:10:30.614591",
+      "action": "increase_bid",
+      "from_bid": 3.94,
+      "to_bid": 5.29,
+      "change_pct": 0.343,
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 26,
+      "final_delivery_pct": 0.92,
+      "final_win_rate": 0.311,
+      "budget_utilization": 0.985,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.71
+  },
+  {
+    "campaign_id": "3536",
+    "campaign_name": "Bank of America Credit Card Offer - Miami",
+    "run_date": "2026-01-20",
+    "industry": "financial",
+    "geo": "Miami",
+    "objective": "awareness",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.13,
+      "day_2_win_rate": 0.142,
+      "bid_at_day_2": 3.47,
+      "market_floor_day_2": 4.38
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-22T02:16:49.614622",
+      "action": "increase_bid",
+      "from_bid": 3.47,
+      "to_bid": 5.43,
+      "change_pct": 0.566,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 56,
+      "final_delivery_pct": 0.673,
+      "final_win_rate": 0.24,
+      "budget_utilization": 0.967,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.94
+  },
+  {
+    "campaign_id": "1238",
+    "campaign_name": "AMC Theaters Festival Tickets - Los Angeles",
+    "run_date": "2025-09-04",
+    "industry": "entertainment",
+    "geo": "Los Angeles",
+    "objective": "conversions",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_7_delivery": 0.223,
+      "day_7_win_rate": 0.068,
+      "bid_at_day_7": 3.85,
+      "market_floor_day_7": 4.35
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-09-11T07:34:06.614652",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 30,
+      "final_delivery_pct": 0.896,
+      "final_win_rate": 0.293,
+      "budget_utilization": 1.083,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.85
+  },
+  {
+    "campaign_id": "3643",
+    "campaign_name": "LiveNation Concert Series - Dallas",
+    "run_date": "2026-01-22",
+    "industry": "entertainment",
+    "geo": "Dallas",
+    "objective": "awareness",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_3_delivery": 0.076,
+      "day_3_win_rate": 0.055,
+      "bid_at_day_3": 5.01,
+      "market_floor_day_3": 5.97
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2026-01-25T00:23:15.614680",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 30,
+      "final_delivery_pct": 1.099,
+      "final_win_rate": 0.231,
+      "budget_utilization": 0.912,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.82
+  },
+  {
+    "campaign_id": "3613",
+    "campaign_name": "Local Arts Center Festival Tickets - Los Angeles",
+    "run_date": "2026-01-30",
+    "industry": "entertainment",
+    "geo": "Los Angeles",
+    "objective": "traffic",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.14,
+      "day_2_win_rate": 0.09,
+      "bid_at_day_2": 5.35,
+      "market_floor_day_2": 7.04
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-02-01T01:34:23.614709",
+      "action": "increase_bid",
+      "from_bid": 5.35,
+      "to_bid": 7.57,
+      "change_pct": 0.414,
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 23,
+      "final_delivery_pct": 0.88,
+      "final_win_rate": 0.252,
+      "budget_utilization": 0.855,
+      "outcome_status": "success",
+      "goal_achieved": false,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.66
+  },
+  {
+    "campaign_id": "2108",
+    "campaign_name": "Cigna Health Insurance - Chicago",
+    "run_date": "2025-10-08",
+    "industry": "healthcare",
+    "geo": "Chicago",
+    "objective": "awareness",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_3_delivery": 0.048,
+      "day_3_win_rate": 0.104,
+      "bid_at_day_3": 4.9,
+      "market_floor_day_3": 6.06
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-10-11T13:01:23.614746",
+      "action": "increase_bid",
+      "from_bid": 4.9,
+      "to_bid": 7.12,
+      "change_pct": 0.454,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 64,
+      "final_delivery_pct": 0.696,
+      "final_win_rate": 0.208,
+      "budget_utilization": 1.088,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.67
+  },
+  {
+    "campaign_id": "1303",
+    "campaign_name": "Wells Fargo Credit Card Offer - Phoenix",
+    "run_date": "2026-02-05",
+    "industry": "financial",
+    "geo": "Phoenix",
+    "objective": "traffic",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.139,
+      "day_2_win_rate": 0.07,
+      "bid_at_day_2": 3.13,
+      "market_floor_day_2": 3.68
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2026-02-07T02:37:34.614776",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 64,
+      "final_delivery_pct": 0.889,
+      "final_win_rate": 0.279,
+      "budget_utilization": 0.896,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.78
+  },
+  {
+    "campaign_id": "3737",
+    "campaign_name": "Honda Test Drive Campaign - Atlanta",
+    "run_date": "2025-10-16",
+    "industry": "automotive",
+    "geo": "Atlanta",
+    "objective": "awareness",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.098,
+      "day_2_win_rate": 0.122,
+      "bid_at_day_2": 3.69,
+      "market_floor_day_2": 4.29
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-10-18T19:17:50.614805",
+      "action": "increase_bid",
+      "from_bid": 3.69,
+      "to_bid": 4.57,
+      "change_pct": 0.239,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 42,
+      "final_delivery_pct": 0.856,
+      "final_win_rate": 0.206,
+      "budget_utilization": 1.017,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.65
+  },
+  {
+    "campaign_id": "2313",
+    "campaign_name": "LiveNation Sports Events - New York",
+    "run_date": "2025-12-23",
+    "industry": "entertainment",
+    "geo": "New York",
+    "objective": "awareness",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_3_delivery": 0.108,
+      "day_3_win_rate": 0.102,
+      "bid_at_day_3": 4.33,
+      "market_floor_day_3": 5.53
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-12-26T15:26:56.614837",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 52,
+      "final_delivery_pct": 1.017,
+      "final_win_rate": 0.269,
+      "budget_utilization": 1.003,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.66
+  },
+  {
+    "campaign_id": "1699",
+    "campaign_name": "Delta Flight Deals - Chicago",
+    "run_date": "2025-12-02",
+    "industry": "travel",
+    "geo": "Chicago",
+    "objective": "conversions",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.158,
+      "day_2_win_rate": 0.118,
+      "bid_at_day_2": 4.96,
+      "market_floor_day_2": 6.81
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-04T04:48:22.614865",
+      "action": "increase_bid",
+      "from_bid": 4.96,
+      "to_bid": 8.31,
+      "change_pct": 0.675,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 49,
+      "final_delivery_pct": 0.737,
+      "final_win_rate": 0.277,
+      "budget_utilization": 1.007,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.71
+  },
+  {
+    "campaign_id": "1392",
+    "campaign_name": "AMC Theaters Sports Events - Seattle",
+    "run_date": "2025-10-26",
+    "industry": "entertainment",
+    "geo": "Seattle",
+    "objective": "traffic",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_8_delivery": 0.186,
+      "day_8_win_rate": 0.105,
+      "bid_at_day_8": 3.66,
+      "market_floor_day_8": 4.5
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-03T14:33:32.614897",
+      "action": "increase_bid",
+      "from_bid": 3.66,
+      "to_bid": 5.47,
+      "change_pct": 0.495,
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 15,
+      "final_delivery_pct": 1.02,
+      "final_win_rate": 0.328,
+      "budget_utilization": 1.011,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.84
+  },
+  {
+    "campaign_id": "1639",
+    "campaign_name": "Local Restaurant Restaurant Week - New York",
+    "run_date": "2025-11-30",
+    "industry": "food_beverage",
+    "geo": "New York",
+    "objective": "awareness",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_12_delivery": 0.191,
+      "day_12_win_rate": 0.103,
+      "bid_at_day_12": 4.63,
+      "market_floor_day_12": 5.92
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-12T18:23:01.614941",
+      "action": "increase_bid",
+      "from_bid": 4.63,
+      "to_bid": 6.82,
+      "change_pct": 0.473,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 34,
+      "final_delivery_pct": 0.952,
+      "final_win_rate": 0.27,
+      "budget_utilization": 0.942,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.84
+  },
+  {
+    "campaign_id": "3266",
+    "campaign_name": "Aetna Health Insurance - New York",
+    "run_date": "2026-01-21",
+    "industry": "healthcare",
+    "geo": "New York",
+    "objective": "awareness",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_5_delivery": 0.083,
+      "day_5_win_rate": 0.096,
+      "bid_at_day_5": 5.62,
+      "market_floor_day_5": 7.73
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-26T06:59:57.614976",
+      "action": "increase_bid",
+      "from_bid": 5.62,
+      "to_bid": 8.2,
+      "change_pct": 0.457,
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 24,
+      "final_delivery_pct": 1.024,
+      "final_win_rate": 0.237,
+      "budget_utilization": 0.899,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.84
+  },
+  {
+    "campaign_id": "1011",
+    "campaign_name": "Humana Telemedicine - Atlanta",
+    "run_date": "2026-01-31",
+    "industry": "healthcare",
+    "geo": "Atlanta",
+    "objective": "awareness",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_3_delivery": 0.085,
+      "day_3_win_rate": 0.108,
+      "bid_at_day_3": 5.68,
+      "market_floor_day_3": 7.74
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2026-02-03T13:31:45.615006",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 24,
+      "final_delivery_pct": 1.002,
+      "final_win_rate": 0.304,
+      "budget_utilization": 1.042,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.8
+  },
+  {
+    "campaign_id": "2352",
+    "campaign_name": "BMW New Model Launch - Seattle",
+    "run_date": "2025-11-03",
+    "industry": "automotive",
+    "geo": "Seattle",
+    "objective": "traffic",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.149,
+      "day_4_win_rate": 0.109,
+      "bid_at_day_4": 5.14,
+      "market_floor_day_4": 6.6
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-07T07:44:52.615036",
+      "action": "increase_bid",
+      "from_bid": 5.14,
+      "to_bid": 7.26,
+      "change_pct": 0.413,
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 52,
+      "final_delivery_pct": 0.903,
+      "final_win_rate": 0.31,
+      "budget_utilization": 0.915,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.88
+  },
+  {
+    "campaign_id": "1610",
+    "campaign_name": "Delta Cruise Packages - Phoenix",
+    "run_date": "2025-12-06",
+    "industry": "travel",
+    "geo": "Phoenix",
+    "objective": "traffic",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_3_delivery": 0.162,
+      "day_3_win_rate": 0.078,
+      "bid_at_day_3": 4.51,
+      "market_floor_day_3": 5.87
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-12-09T15:28:22.615064",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 57,
+      "final_delivery_pct": 1.012,
+      "final_win_rate": 0.265,
+      "budget_utilization": 0.958,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.78
+  },
+  {
+    "campaign_id": "2952",
+    "campaign_name": "Cigna Urgent Care - Miami",
+    "run_date": "2026-01-30",
+    "industry": "healthcare",
+    "geo": "Miami",
+    "objective": "traffic",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.152,
+      "day_4_win_rate": 0.15,
+      "bid_at_day_4": 3.1,
+      "market_floor_day_4": 3.82
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-02-03T17:32:07.615090",
+      "action": "increase_bid",
+      "from_bid": 3.1,
+      "to_bid": 4.09,
+      "change_pct": 0.317,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 63,
+      "final_delivery_pct": 0.785,
+      "final_win_rate": 0.297,
+      "budget_utilization": 0.853,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.92
+  },
+  {
+    "campaign_id": "3992",
+    "campaign_name": "Anthem Telemedicine - Denver",
+    "run_date": "2025-11-07",
+    "industry": "healthcare",
+    "geo": "Denver",
+    "objective": "conversions",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.085,
+      "day_2_win_rate": 0.113,
+      "bid_at_day_2": 3.07,
+      "market_floor_day_2": 4.08
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-09T09:24:25.615121",
+      "action": "increase_bid",
+      "from_bid": 3.07,
+      "to_bid": 4.41,
+      "change_pct": 0.439,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 48,
+      "final_delivery_pct": 0.835,
+      "final_win_rate": 0.283,
+      "budget_utilization": 0.923,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.9
+  },
+  {
+    "campaign_id": "1943",
+    "campaign_name": "Fast Casual Chain Delivery Service - Boston",
+    "run_date": "2025-10-25",
+    "industry": "food_beverage",
+    "geo": "Boston",
+    "objective": "conversions",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_4_delivery": 0.181,
+      "day_4_win_rate": 0.121,
+      "bid_at_day_4": 3.29,
+      "market_floor_day_4": 3.69
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-10-29T16:27:43.615151",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 69,
+      "final_delivery_pct": 0.826,
+      "final_win_rate": 0.242,
+      "budget_utilization": 1.059,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.86
+  },
+  {
+    "campaign_id": "3987",
+    "campaign_name": "United Airlines Flight Deals - New York",
+    "run_date": "2025-08-30",
+    "industry": "travel",
+    "geo": "New York",
+    "objective": "conversions",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_4_delivery": 0.138,
+      "day_4_win_rate": 0.096,
+      "bid_at_day_4": 5.85,
+      "market_floor_day_4": 7.81
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-09-03T10:38:35.615176",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 25,
+      "final_delivery_pct": 1.026,
+      "final_win_rate": 0.232,
+      "budget_utilization": 0.857,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.7
+  },
+  {
+    "campaign_id": "2655",
+    "campaign_name": "UnitedHealth Urgent Care - Boston",
+    "run_date": "2025-09-17",
+    "industry": "healthcare",
+    "geo": "Boston",
+    "objective": "traffic",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_8_delivery": 0.129,
+      "day_8_win_rate": 0.123,
+      "bid_at_day_8": 4.43,
+      "market_floor_day_8": 4.91
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-09-25T23:29:40.615204",
+      "action": "increase_bid",
+      "from_bid": 4.43,
+      "to_bid": 5.81,
+      "change_pct": 0.311,
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 24,
+      "final_delivery_pct": 0.954,
+      "final_win_rate": 0.318,
+      "budget_utilization": 0.911,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.91
+  },
+  {
+    "campaign_id": "3905",
+    "campaign_name": "Chase Mortgage Rates - Atlanta",
+    "run_date": "2025-12-19",
+    "industry": "financial",
+    "geo": "Atlanta",
+    "objective": "conversions",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.196,
+      "day_2_win_rate": 0.067,
+      "bid_at_day_2": 4.13,
+      "market_floor_day_2": 4.98
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-21T20:05:39.615236",
+      "action": "increase_bid",
+      "from_bid": 4.13,
+      "to_bid": 5.76,
+      "change_pct": 0.395,
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 30,
+      "final_delivery_pct": 1.08,
+      "final_win_rate": 0.318,
+      "budget_utilization": 0.964,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.78
+  },
+  {
+    "campaign_id": "1821",
+    "campaign_name": "TJ Maxx Holiday Sale - Phoenix",
+    "run_date": "2025-10-25",
+    "industry": "retail",
+    "geo": "Phoenix",
+    "objective": "traffic",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_4_delivery": 0.109,
+      "day_4_win_rate": 0.092,
+      "bid_at_day_4": 5.44,
+      "market_floor_day_4": 6.98
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-10-29T16:17:55.615271",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 35,
+      "final_delivery_pct": 1.011,
+      "final_win_rate": 0.312,
+      "budget_utilization": 0.945,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.77
+  },
+  {
+    "campaign_id": "3018",
+    "campaign_name": "Walmart Summer Collection - Atlanta",
+    "run_date": "2025-11-06",
+    "industry": "retail",
+    "geo": "Atlanta",
+    "objective": "conversions",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_2_delivery": 0.036,
+      "day_2_win_rate": 0.127,
+      "bid_at_day_2": 4.44,
+      "market_floor_day_2": 5.9
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-08T03:36:13.615302",
+      "action": "increase_bid",
+      "from_bid": 4.44,
+      "to_bid": 6.6,
+      "change_pct": 0.488,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 34,
+      "final_delivery_pct": 0.795,
+      "final_win_rate": 0.235,
+      "budget_utilization": 1.007,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.73
+  },
+  {
+    "campaign_id": "3122",
+    "campaign_name": "AMC Theaters Theater Production - Seattle",
+    "run_date": "2025-09-09",
+    "industry": "entertainment",
+    "geo": "Seattle",
+    "objective": "traffic",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.183,
+      "day_4_win_rate": 0.143,
+      "bid_at_day_4": 3.69,
+      "market_floor_day_4": 5.0
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-09-13T19:27:21.615336",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 32,
+      "final_delivery_pct": 1.033,
+      "final_win_rate": 0.242,
+      "budget_utilization": 0.892,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.85
+  },
+  {
+    "campaign_id": "2189",
+    "campaign_name": "Booking.com Summer Vacation - Atlanta",
+    "run_date": "2026-02-06",
+    "industry": "travel",
+    "geo": "Atlanta",
+    "objective": "conversions",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_9_delivery": 0.164,
+      "day_9_win_rate": 0.133,
+      "bid_at_day_9": 4.06,
+      "market_floor_day_9": 4.82
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2026-02-15T09:44:04.615367",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 16,
+      "final_delivery_pct": 0.991,
+      "final_win_rate": 0.313,
+      "budget_utilization": 1.013,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.7
+  },
+  {
+    "campaign_id": "2075",
+    "campaign_name": "Ford Spring Sale - Atlanta",
+    "run_date": "2025-11-18",
+    "industry": "automotive",
+    "geo": "Atlanta",
+    "objective": "traffic",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.191,
+      "day_2_win_rate": 0.081,
+      "bid_at_day_2": 3.51,
+      "market_floor_day_2": 4.47
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-20T18:52:46.615395",
+      "action": "increase_bid",
+      "from_bid": 3.51,
+      "to_bid": 4.88,
+      "change_pct": 0.391,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 45,
+      "final_delivery_pct": 1.008,
+      "final_win_rate": 0.303,
+      "budget_utilization": 0.862,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.84
+  },
+  {
+    "campaign_id": "2765",
+    "campaign_name": "Cigna Wellness Program - Miami",
+    "run_date": "2025-08-26",
+    "industry": "healthcare",
+    "geo": "Miami",
+    "objective": "traffic",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_7_delivery": 0.093,
+      "day_7_win_rate": 0.072,
+      "bid_at_day_7": 4.04,
+      "market_floor_day_7": 4.49
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-09-02T02:00:19.615428",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 47,
+      "final_delivery_pct": 1.028,
+      "final_win_rate": 0.2,
+      "budget_utilization": 1.09,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.86
+  },
+  {
+    "campaign_id": "2151",
+    "campaign_name": "TJ Maxx Summer Collection - New York",
+    "run_date": "2025-11-30",
+    "industry": "retail",
+    "geo": "New York",
+    "objective": "awareness",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.068,
+      "day_2_win_rate": 0.07,
+      "bid_at_day_2": 4.48,
+      "market_floor_day_2": 5.23
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-02T19:59:50.615465",
+      "action": "increase_bid",
+      "from_bid": 4.48,
+      "to_bid": 5.97,
+      "change_pct": 0.332,
+      "recommended_by": "agent",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 36,
+      "final_delivery_pct": 1.105,
+      "final_win_rate": 0.246,
+      "budget_utilization": 1.019,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.74
+  },
+  {
+    "campaign_id": "3703",
+    "campaign_name": "Fast Casual Chain New Menu Launch - Atlanta",
+    "run_date": "2025-12-22",
+    "industry": "food_beverage",
+    "geo": "Atlanta",
+    "objective": "conversions",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_7_delivery": 0.195,
+      "day_7_win_rate": 0.146,
+      "bid_at_day_7": 4.27,
+      "market_floor_day_7": 5.53
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-29T07:36:29.615493",
+      "action": "increase_bid",
+      "from_bid": 4.27,
+      "to_bid": 6.21,
+      "change_pct": 0.452,
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 49,
+      "final_delivery_pct": 0.835,
+      "final_win_rate": 0.342,
+      "budget_utilization": 0.931,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.88
+  },
+  {
+    "campaign_id": "2618",
+    "campaign_name": "Macy's Holiday Sale - New York",
+    "run_date": "2025-12-20",
+    "industry": "retail",
+    "geo": "New York",
+    "objective": "awareness",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_7_delivery": 0.12,
+      "day_7_win_rate": 0.084,
+      "bid_at_day_7": 3.9,
+      "market_floor_day_7": 5.31
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-12-27T03:29:14.615520",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 63,
+      "final_delivery_pct": 0.815,
+      "final_win_rate": 0.325,
+      "budget_utilization": 1.031,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.6
+  },
+  {
+    "campaign_id": "3562",
+    "campaign_name": "Local Restaurant Restaurant Week - Los Angeles",
+    "run_date": "2025-10-31",
+    "industry": "food_beverage",
+    "geo": "Los Angeles",
+    "objective": "traffic",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_4_delivery": 0.091,
+      "day_4_win_rate": 0.07,
+      "bid_at_day_4": 3.85,
+      "market_floor_day_4": 4.88
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-11-04T11:36:22.615548",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 41,
+      "final_delivery_pct": 0.998,
+      "final_win_rate": 0.257,
+      "budget_utilization": 0.989,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.61
+  },
+  {
+    "campaign_id": "1571",
+    "campaign_name": "UnitedHealth Telemedicine - Dallas",
+    "run_date": "2026-01-22",
+    "industry": "healthcare",
+    "geo": "Dallas",
+    "objective": "traffic",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.131,
+      "day_4_win_rate": 0.063,
+      "bid_at_day_4": 3.57,
+      "market_floor_day_4": 4.94
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2026-01-26T17:28:49.615577",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 61,
+      "final_delivery_pct": 0.975,
+      "final_win_rate": 0.221,
+      "budget_utilization": 1.066,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.9
+  },
+  {
+    "campaign_id": "1400",
+    "campaign_name": "Food Delivery Catering Promo - Chicago",
+    "run_date": "2026-01-09",
+    "industry": "food_beverage",
+    "geo": "Chicago",
+    "objective": "traffic",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_2_delivery": 0.051,
+      "day_2_win_rate": 0.073,
+      "bid_at_day_2": 5.12,
+      "market_floor_day_2": 6.61
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2026-01-11T02:06:29.615604",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 12,
+      "final_delivery_pct": 1.145,
+      "final_win_rate": 0.221,
+      "budget_utilization": 1.015,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.88
+  },
+  {
+    "campaign_id": "3158",
+    "campaign_name": "Bank of America Mortgage Rates - New York",
+    "run_date": "2025-10-28",
+    "industry": "financial",
+    "geo": "New York",
+    "objective": "traffic",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_4_delivery": 0.044,
+      "day_4_win_rate": 0.071,
+      "bid_at_day_4": 3.38,
+      "market_floor_day_4": 4.07
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-11-01T15:05:01.615638",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 31,
+      "final_delivery_pct": 0.735,
+      "final_win_rate": 0.258,
+      "budget_utilization": 1.002,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.9
+  },
+  {
+    "campaign_id": "2542",
+    "campaign_name": "LiveNation Sports Events - Miami",
+    "run_date": "2025-10-14",
+    "industry": "entertainment",
+    "geo": "Miami",
+    "objective": "conversions",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_5_delivery": 0.146,
+      "day_5_win_rate": 0.086,
+      "bid_at_day_5": 4.35,
+      "market_floor_day_5": 5.11
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-10-19T16:52:37.615671",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 61,
+      "final_delivery_pct": 0.892,
+      "final_win_rate": 0.218,
+      "budget_utilization": 1.084,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.77
+  },
+  {
+    "campaign_id": "2967",
+    "campaign_name": "Target Back to School - Dallas",
+    "run_date": "2026-01-07",
+    "industry": "retail",
+    "geo": "Dallas",
+    "objective": "traffic",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_11_delivery": 0.252,
+      "day_11_win_rate": 0.051,
+      "bid_at_day_11": 4.11,
+      "market_floor_day_11": 5.18
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2026-01-18T01:53:13.615698",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 42,
+      "final_delivery_pct": 1.038,
+      "final_win_rate": 0.309,
+      "budget_utilization": 0.862,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.7
+  },
+  {
+    "campaign_id": "3409",
+    "campaign_name": "Walmart Holiday Sale - Atlanta",
+    "run_date": "2025-10-08",
+    "industry": "retail",
+    "geo": "Atlanta",
+    "objective": "awareness",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.143,
+      "day_2_win_rate": 0.065,
+      "bid_at_day_2": 5.69,
+      "market_floor_day_2": 7.47
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-10-10T11:38:13.615724",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 59,
+      "final_delivery_pct": 1.05,
+      "final_win_rate": 0.235,
+      "budget_utilization": 1.012,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.84
+  },
+  {
+    "campaign_id": "3810",
+    "campaign_name": "HomeGoods Back to School - Phoenix",
+    "run_date": "2026-01-14",
+    "industry": "retail",
+    "geo": "Phoenix",
+    "objective": "traffic",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.089,
+      "day_2_win_rate": 0.071,
+      "bid_at_day_2": 3.33,
+      "market_floor_day_2": 4.06
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-16T08:59:19.615745",
+      "action": "increase_bid",
+      "from_bid": 3.33,
+      "to_bid": 4.79,
+      "change_pct": 0.441,
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 31,
+      "final_delivery_pct": 0.906,
+      "final_win_rate": 0.279,
+      "budget_utilization": 1.085,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.72
+  },
+  {
+    "campaign_id": "3302",
+    "campaign_name": "Capital One Credit Card Offer - Phoenix",
+    "run_date": "2025-11-11",
+    "industry": "financial",
+    "geo": "Phoenix",
+    "objective": "conversions",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_3_delivery": 0.064,
+      "day_3_win_rate": 0.063,
+      "bid_at_day_3": 3.98,
+      "market_floor_day_3": 5.34
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-14T00:36:49.615766",
+      "action": "increase_bid",
+      "from_bid": 3.98,
+      "to_bid": 6.66,
+      "change_pct": 0.675,
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 33,
+      "final_delivery_pct": 0.948,
+      "final_win_rate": 0.242,
+      "budget_utilization": 1.071,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.88
+  },
+  {
+    "campaign_id": "1208",
+    "campaign_name": "Walmart Holiday Sale - Phoenix",
+    "run_date": "2025-10-29",
+    "industry": "retail",
+    "geo": "Phoenix",
+    "objective": "traffic",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 21,
+    "initial_state": {
+      "day_2_delivery": 0.031,
+      "day_2_win_rate": 0.105,
+      "bid_at_day_2": 3.92,
+      "market_floor_day_2": 4.46
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-10-31T11:58:18.615790",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "trader",
+      "accepted_by": "trader_a"
+    },
+    "outcome": {
+      "recovery_time_hours": 63,
+      "final_delivery_pct": 0.681,
+      "final_win_rate": 0.291,
+      "budget_utilization": 1.043,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.85
+  },
+  {
+    "campaign_id": "2410",
+    "campaign_name": "Cigna Telemedicine - Los Angeles",
+    "run_date": "2025-11-13",
+    "industry": "healthcare",
+    "geo": "Los Angeles",
+    "objective": "traffic",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.164,
+      "day_2_win_rate": 0.089,
+      "bid_at_day_2": 3.84,
+      "market_floor_day_2": 5.14
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-15T06:45:32.615810",
+      "action": "increase_bid",
+      "from_bid": 3.84,
+      "to_bid": 6.3,
+      "change_pct": 0.642,
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 22,
+      "final_delivery_pct": 0.928,
+      "final_win_rate": 0.203,
+      "budget_utilization": 0.908,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.83
+  },
+  {
+    "campaign_id": "1509",
+    "campaign_name": "UnitedHealth Telemedicine - Los Angeles",
+    "run_date": "2025-10-29",
+    "industry": "healthcare",
+    "geo": "Los Angeles",
+    "objective": "traffic",
+    "budget_total": 30000,
+    "impressions_goal": 6000000,
+    "days_total": 14,
+    "initial_state": {
+      "day_5_delivery": 0.151,
+      "day_5_win_rate": 0.125,
+      "bid_at_day_5": 4.85,
+      "market_floor_day_5": 6.6
+    },
+    "intervention": {
+      "type": "targeting_expansion",
+      "timestamp": "2025-11-03T17:33:10.615830",
+      "action": "targeting_expansion",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 29,
+      "final_delivery_pct": 1.067,
+      "final_win_rate": 0.314,
+      "budget_utilization": 0.876,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.83
+  },
+  {
+    "campaign_id": "1440",
+    "campaign_name": "Chevrolet Test Drive Campaign - Los Angeles",
+    "run_date": "2025-09-23",
+    "industry": "automotive",
+    "geo": "Los Angeles",
+    "objective": "traffic",
+    "budget_total": 20000,
+    "impressions_goal": 4000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_12_delivery": 0.148,
+      "day_12_win_rate": 0.079,
+      "bid_at_day_12": 5.08,
+      "market_floor_day_12": 6.21
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-10-05T14:54:44.615851",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 24,
+      "final_delivery_pct": 0.922,
+      "final_win_rate": 0.297,
+      "budget_utilization": 1.015,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.8
+  },
+  {
+    "campaign_id": "2710",
+    "campaign_name": "Local Restaurant New Menu Launch - Chicago",
+    "run_date": "2025-12-03",
+    "industry": "food_beverage",
+    "geo": "Chicago",
+    "objective": "conversions",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.159,
+      "day_2_win_rate": 0.126,
+      "bid_at_day_2": 3.63,
+      "market_floor_day_2": 4.05
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-12-05T02:32:22.615873",
+      "action": "increase_bid",
+      "from_bid": 3.63,
+      "to_bid": 4.52,
+      "change_pct": 0.244,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 31,
+      "final_delivery_pct": 0.787,
+      "final_win_rate": 0.215,
+      "budget_utilization": 0.992,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.79
+  },
+  {
+    "campaign_id": "3567",
+    "campaign_name": "Delta Flight Deals - Dallas",
+    "run_date": "2025-12-28",
+    "industry": "travel",
+    "geo": "Dallas",
+    "objective": "conversions",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_4_delivery": 0.045,
+      "day_4_win_rate": 0.07,
+      "bid_at_day_4": 5.81,
+      "market_floor_day_4": 7.53
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2026-01-01T08:59:19.615897",
+      "action": "increase_bid",
+      "from_bid": 5.81,
+      "to_bid": 8.96,
+      "change_pct": 0.541,
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 17,
+      "final_delivery_pct": 1.141,
+      "final_win_rate": 0.26,
+      "budget_utilization": 1.01,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 5
+    },
+    "similarity_score": 0.92
+  },
+  {
+    "campaign_id": "3112",
+    "campaign_name": "Target Back to School - Los Angeles",
+    "run_date": "2025-11-24",
+    "industry": "retail",
+    "geo": "Los Angeles",
+    "objective": "awareness",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_4_delivery": 0.22,
+      "day_4_win_rate": 0.105,
+      "bid_at_day_4": 3.01,
+      "market_floor_day_4": 3.75
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-11-28T22:51:25.615922",
+      "action": "increase_bid",
+      "from_bid": 3.01,
+      "to_bid": 4.28,
+      "change_pct": 0.423,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 62,
+      "final_delivery_pct": 1.022,
+      "final_win_rate": 0.306,
+      "budget_utilization": 0.924,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 3
+    },
+    "similarity_score": 0.78
+  },
+  {
+    "campaign_id": "3121",
+    "campaign_name": "Anthem Health Insurance - Boston",
+    "run_date": "2025-10-05",
+    "industry": "healthcare",
+    "geo": "Boston",
+    "objective": "conversions",
+    "budget_total": 10000,
+    "impressions_goal": 2000000,
+    "days_total": 10,
+    "initial_state": {
+      "day_2_delivery": 0.084,
+      "day_2_win_rate": 0.051,
+      "bid_at_day_2": 5.77,
+      "market_floor_day_2": 7.33
+    },
+    "intervention": {
+      "type": "pacing_adjustment",
+      "timestamp": "2025-10-07T22:03:27.615944",
+      "action": "pacing_adjustment",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 23,
+      "final_delivery_pct": 1.056,
+      "final_win_rate": 0.321,
+      "budget_utilization": 0.975,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.76
+  },
+  {
+    "campaign_id": "3970",
+    "campaign_name": "Humana Wellness Program - Seattle",
+    "run_date": "2025-12-06",
+    "industry": "healthcare",
+    "geo": "Seattle",
+    "objective": "conversions",
+    "budget_total": 15000,
+    "impressions_goal": 3000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.107,
+      "day_2_win_rate": 0.127,
+      "bid_at_day_2": 3.42,
+      "market_floor_day_2": 4.33
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-12-08T04:54:02.615963",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_b"
+    },
+    "outcome": {
+      "recovery_time_hours": 27,
+      "final_delivery_pct": 1.063,
+      "final_win_rate": 0.323,
+      "budget_utilization": 0.956,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.65
+  },
+  {
+    "campaign_id": "3298",
+    "campaign_name": "United Airlines Flight Deals - Atlanta",
+    "run_date": "2025-10-10",
+    "industry": "travel",
+    "geo": "Atlanta",
+    "objective": "traffic",
+    "budget_total": 50000,
+    "impressions_goal": 10000000,
+    "days_total": 30,
+    "initial_state": {
+      "day_11_delivery": 0.17,
+      "day_11_win_rate": 0.115,
+      "bid_at_day_11": 4.73,
+      "market_floor_day_11": 5.27
+    },
+    "intervention": {
+      "type": "creative_refresh",
+      "timestamp": "2025-10-21T22:11:13.615984",
+      "action": "creative_refresh",
+      "details": "Various adjustments made",
+      "recommended_by": "agent",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 25,
+      "final_delivery_pct": 1.038,
+      "final_win_rate": 0.288,
+      "budget_utilization": 1.023,
+      "outcome_status": "success",
+      "goal_achieved": true,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.82
+  },
+  {
+    "campaign_id": "2194",
+    "campaign_name": "TJ Maxx Flash Sale - Dallas",
+    "run_date": "2025-10-01",
+    "industry": "retail",
+    "geo": "Dallas",
+    "objective": "conversions",
+    "budget_total": 5000,
+    "impressions_goal": 1000000,
+    "days_total": 7,
+    "initial_state": {
+      "day_2_delivery": 0.166,
+      "day_2_win_rate": 0.116,
+      "bid_at_day_2": 3.49,
+      "market_floor_day_2": 4.71
+    },
+    "intervention": {
+      "type": "bid_adjustment",
+      "timestamp": "2025-10-03T09:09:48.616005",
+      "action": "increase_bid",
+      "from_bid": 3.49,
+      "to_bid": 5.52,
+      "change_pct": 0.583,
+      "recommended_by": "trader",
+      "accepted_by": "trader_c"
+    },
+    "outcome": {
+      "recovery_time_hours": 72,
+      "final_delivery_pct": 0.809,
+      "final_win_rate": 0.341,
+      "budget_utilization": 0.947,
+      "outcome_status": "partial",
+      "goal_achieved": false,
+      "trader_satisfaction": 4
+    },
+    "similarity_score": 0.65
+  }
+]

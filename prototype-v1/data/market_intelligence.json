@@ -1,0 +1,2312 @@
+[
+  {
+    "market_segment": "automotive_chicago_dma",
+    "timestamp": "2026-02-17T16:37:24.628384",
+    "geo": "Chicago",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 12,
+      "competitor_change_24h": 3,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.1,
+      "cpm_floor_24h_ago": 4.85,
+      "cpm_change_pct": 0.0515,
+      "cpm_percentiles": {
+        "p25": 4.8,
+        "p50": 5.1,
+        "p75": 6.2,
+        "p90": 7.5
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2800000,
+      "demand_supply_ratio": 1.8,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.25,
+      "industry_avg_ctr": 0.0059,
+      "industry_avg_cpm": 5.45,
+      "industry_avg_conversion_rate": 0.028
+    }
+  },
+  {
+    "market_segment": "retail_chicago_dma",
+    "timestamp": "2026-02-17T16:37:24.628410",
+    "geo": "Chicago",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 9,
+      "competitor_change_24h": -1,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.92,
+      "cpm_floor_24h_ago": 4.84,
+      "cpm_change_pct": -0.0326,
+      "cpm_percentiles": {
+        "p25": 4.15,
+        "p50": 5.07,
+        "p75": 6.83,
+        "p90": 9.66
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4790143,
+      "demand_supply_ratio": 2.04,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.204,
+      "industry_avg_ctr": 0.00906,
+      "industry_avg_cpm": 7.28,
+      "industry_avg_conversion_rate": 0.0396
+    }
+  },
+  {
+    "market_segment": "financial_chicago_dma",
+    "timestamp": "2026-02-17T16:37:24.628454",
+    "geo": "Chicago",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 5,
+      "competitor_change_24h": 4,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.4,
+      "cpm_floor_24h_ago": 5.01,
+      "cpm_change_pct": 0.0761,
+      "cpm_percentiles": {
+        "p25": 3.17,
+        "p50": 5.19,
+        "p75": 6.45,
+        "p90": 9.64
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4844697,
+      "demand_supply_ratio": 2.19,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.277,
+      "industry_avg_ctr": 0.00457,
+      "industry_avg_cpm": 6.58,
+      "industry_avg_conversion_rate": 0.0291
+    }
+  },
+  {
+    "market_segment": "healthcare_chicago_dma",
+    "timestamp": "2026-02-17T16:37:24.628477",
+    "geo": "Chicago",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 17,
+      "competitor_change_24h": 5,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.83,
+      "cpm_floor_24h_ago": 4.88,
+      "cpm_change_pct": 0.1471,
+      "cpm_percentiles": {
+        "p25": 3.01,
+        "p50": 5.49,
+        "p75": 6.38,
+        "p90": 7.84
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4516274,
+      "demand_supply_ratio": 1.57,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.292,
+      "industry_avg_ctr": 0.00715,
+      "industry_avg_cpm": 4.9,
+      "industry_avg_conversion_rate": 0.028
+    }
+  },
+  {
+    "market_segment": "travel_chicago_dma",
+    "timestamp": "2026-02-17T16:37:24.628494",
+    "geo": "Chicago",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 8,
+      "competitor_change_24h": 2,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.18,
+      "cpm_floor_24h_ago": 3.09,
+      "cpm_change_pct": 0.1066,
+      "cpm_percentiles": {
+        "p25": 4.92,
+        "p50": 5.09,
+        "p75": 7.28,
+        "p90": 7.55
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2123295,
+      "demand_supply_ratio": 1.29,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.246,
+      "industry_avg_ctr": 0.00912,
+      "industry_avg_cpm": 4.8,
+      "industry_avg_conversion_rate": 0.0339
+    }
+  },
+  {
+    "market_segment": "entertainment_chicago_dma",
+    "timestamp": "2026-02-17T16:37:24.628509",
+    "geo": "Chicago",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 15,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.53,
+      "cpm_floor_24h_ago": 6.63,
+      "cpm_change_pct": -0.026,
+      "cpm_percentiles": {
+        "p25": 3.04,
+        "p50": 5.03,
+        "p75": 6.01,
+        "p90": 9.38
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1657630,
+      "demand_supply_ratio": 1.99,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.287,
+      "industry_avg_ctr": 0.00689,
+      "industry_avg_cpm": 5.44,
+      "industry_avg_conversion_rate": 0.0424
+    }
+  },
+  {
+    "market_segment": "food_beverage_chicago_dma",
+    "timestamp": "2026-02-17T16:37:24.628534",
+    "geo": "Chicago",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 17,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.86,
+      "cpm_floor_24h_ago": 5.5,
+      "cpm_change_pct": 0.0258,
+      "cpm_percentiles": {
+        "p25": 4.15,
+        "p50": 4.94,
+        "p75": 6.74,
+        "p90": 8.49
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3674095,
+      "demand_supply_ratio": 1.29,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.312,
+      "industry_avg_ctr": 0.0055,
+      "industry_avg_cpm": 6.42,
+      "industry_avg_conversion_rate": 0.0286
+    }
+  },
+  {
+    "market_segment": "automotive_new_york_dma",
+    "timestamp": "2026-02-17T16:37:24.628551",
+    "geo": "New York",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 11,
+      "competitor_change_24h": -2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.25,
+      "cpm_floor_24h_ago": 5.73,
+      "cpm_change_pct": -0.0169,
+      "cpm_percentiles": {
+        "p25": 3.41,
+        "p50": 4.5,
+        "p75": 7.68,
+        "p90": 9.21
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1533472,
+      "demand_supply_ratio": 1.3,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.272,
+      "industry_avg_ctr": 0.00905,
+      "industry_avg_cpm": 6.87,
+      "industry_avg_conversion_rate": 0.0296
+    }
+  },
+  {
+    "market_segment": "retail_new_york_dma",
+    "timestamp": "2026-02-17T16:37:24.628567",
+    "geo": "New York",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 17,
+      "competitor_change_24h": 3,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.36,
+      "cpm_floor_24h_ago": 4.22,
+      "cpm_change_pct": 0.0052,
+      "cpm_percentiles": {
+        "p25": 4.72,
+        "p50": 5.5,
+        "p75": 6.37,
+        "p90": 8.38
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3128744,
+      "demand_supply_ratio": 2.42,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.248,
+      "industry_avg_ctr": 0.00447,
+      "industry_avg_cpm": 5.47,
+      "industry_avg_conversion_rate": 0.0395
+    }
+  },
+  {
+    "market_segment": "financial_new_york_dma",
+    "timestamp": "2026-02-17T16:37:24.628582",
+    "geo": "New York",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 17,
+      "competitor_change_24h": 1,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.16,
+      "cpm_floor_24h_ago": 6.68,
+      "cpm_change_pct": 0.0664,
+      "cpm_percentiles": {
+        "p25": 4.57,
+        "p50": 5.35,
+        "p75": 7.46,
+        "p90": 8.26
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3252686,
+      "demand_supply_ratio": 1.52,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.238,
+      "industry_avg_ctr": 0.00691,
+      "industry_avg_cpm": 6.72,
+      "industry_avg_conversion_rate": 0.0258
+    }
+  },
+  {
+    "market_segment": "healthcare_new_york_dma",
+    "timestamp": "2026-02-17T16:37:24.628597",
+    "geo": "New York",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 6,
+      "competitor_change_24h": 0,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.43,
+      "cpm_floor_24h_ago": 3.05,
+      "cpm_change_pct": 0.0307,
+      "cpm_percentiles": {
+        "p25": 3.91,
+        "p50": 5.63,
+        "p75": 7.09,
+        "p90": 9.11
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2106832,
+      "demand_supply_ratio": 1.63,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.28,
+      "industry_avg_ctr": 0.0055,
+      "industry_avg_cpm": 7.25,
+      "industry_avg_conversion_rate": 0.0299
+    }
+  },
+  {
+    "market_segment": "travel_new_york_dma",
+    "timestamp": "2026-02-17T16:37:24.628613",
+    "geo": "New York",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 13,
+      "competitor_change_24h": -1,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.0,
+      "cpm_floor_24h_ago": 6.52,
+      "cpm_change_pct": 0.1236,
+      "cpm_percentiles": {
+        "p25": 4.27,
+        "p50": 5.23,
+        "p75": 6.45,
+        "p90": 9.43
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1042544,
+      "demand_supply_ratio": 1.59,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.31,
+      "industry_avg_ctr": 0.00872,
+      "industry_avg_cpm": 6.52,
+      "industry_avg_conversion_rate": 0.04
+    }
+  },
+  {
+    "market_segment": "entertainment_new_york_dma",
+    "timestamp": "2026-02-17T16:37:24.628631",
+    "geo": "New York",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 15,
+      "competitor_change_24h": 0,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.93,
+      "cpm_floor_24h_ago": 3.54,
+      "cpm_change_pct": 0.1063,
+      "cpm_percentiles": {
+        "p25": 4.47,
+        "p50": 6.08,
+        "p75": 7.56,
+        "p90": 7.51
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4718270,
+      "demand_supply_ratio": 0.83,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.222,
+      "industry_avg_ctr": 0.00518,
+      "industry_avg_cpm": 6.84,
+      "industry_avg_conversion_rate": 0.0371
+    }
+  },
+  {
+    "market_segment": "food_beverage_new_york_dma",
+    "timestamp": "2026-02-17T16:37:24.628646",
+    "geo": "New York",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 14,
+      "competitor_change_24h": 0,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.2,
+      "cpm_floor_24h_ago": 3.74,
+      "cpm_change_pct": -0.0096,
+      "cpm_percentiles": {
+        "p25": 3.42,
+        "p50": 4.87,
+        "p75": 6.07,
+        "p90": 8.8
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2150275,
+      "demand_supply_ratio": 1.44,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.26,
+      "industry_avg_ctr": 0.00915,
+      "industry_avg_cpm": 5.83,
+      "industry_avg_conversion_rate": 0.0152
+    }
+  },
+  {
+    "market_segment": "automotive_los_angeles_dma",
+    "timestamp": "2026-02-17T16:37:24.628660",
+    "geo": "Los Angeles",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 18,
+      "competitor_change_24h": 2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.95,
+      "cpm_floor_24h_ago": 4.96,
+      "cpm_change_pct": 0.1415,
+      "cpm_percentiles": {
+        "p25": 4.07,
+        "p50": 5.79,
+        "p75": 6.22,
+        "p90": 9.58
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2626794,
+      "demand_supply_ratio": 2.45,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.278,
+      "industry_avg_ctr": 0.00587,
+      "industry_avg_cpm": 7.18,
+      "industry_avg_conversion_rate": 0.0199
+    }
+  },
+  {
+    "market_segment": "retail_los_angeles_dma",
+    "timestamp": "2026-02-17T16:37:24.628674",
+    "geo": "Los Angeles",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": 3,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.33,
+      "cpm_floor_24h_ago": 5.45,
+      "cpm_change_pct": 0.0219,
+      "cpm_percentiles": {
+        "p25": 3.31,
+        "p50": 6.3,
+        "p75": 6.08,
+        "p90": 9.61
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 717975,
+      "demand_supply_ratio": 1.01,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.22,
+      "industry_avg_ctr": 0.00967,
+      "industry_avg_cpm": 5.51,
+      "industry_avg_conversion_rate": 0.0382
+    }
+  },
+  {
+    "market_segment": "financial_los_angeles_dma",
+    "timestamp": "2026-02-17T16:37:24.628688",
+    "geo": "Los Angeles",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 16,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.82,
+      "cpm_floor_24h_ago": 6.88,
+      "cpm_change_pct": 0.0414,
+      "cpm_percentiles": {
+        "p25": 4.34,
+        "p50": 5.19,
+        "p75": 6.59,
+        "p90": 8.94
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1826051,
+      "demand_supply_ratio": 1.42,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.294,
+      "industry_avg_ctr": 0.00899,
+      "industry_avg_cpm": 5.88,
+      "industry_avg_conversion_rate": 0.0406
+    }
+  },
+  {
+    "market_segment": "healthcare_los_angeles_dma",
+    "timestamp": "2026-02-17T16:37:24.628702",
+    "geo": "Los Angeles",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 16,
+      "competitor_change_24h": -2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.87,
+      "cpm_floor_24h_ago": 5.73,
+      "cpm_change_pct": 0.0578,
+      "cpm_percentiles": {
+        "p25": 3.55,
+        "p50": 5.37,
+        "p75": 6.61,
+        "p90": 8.3
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3353521,
+      "demand_supply_ratio": 2.05,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.254,
+      "industry_avg_ctr": 0.00588,
+      "industry_avg_cpm": 4.8,
+      "industry_avg_conversion_rate": 0.0383
+    }
+  },
+  {
+    "market_segment": "travel_los_angeles_dma",
+    "timestamp": "2026-02-17T16:37:24.628716",
+    "geo": "Los Angeles",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 12,
+      "competitor_change_24h": 4,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.2,
+      "cpm_floor_24h_ago": 5.68,
+      "cpm_change_pct": 0.0455,
+      "cpm_percentiles": {
+        "p25": 3.82,
+        "p50": 6.02,
+        "p75": 7.39,
+        "p90": 7.95
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4869121,
+      "demand_supply_ratio": 2.25,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.313,
+      "industry_avg_ctr": 0.00723,
+      "industry_avg_cpm": 5.1,
+      "industry_avg_conversion_rate": 0.0432
+    }
+  },
+  {
+    "market_segment": "entertainment_los_angeles_dma",
+    "timestamp": "2026-02-17T16:37:24.628732",
+    "geo": "Los Angeles",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 5,
+      "competitor_change_24h": 2,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.47,
+      "cpm_floor_24h_ago": 4.97,
+      "cpm_change_pct": -0.0104,
+      "cpm_percentiles": {
+        "p25": 4.73,
+        "p50": 5.43,
+        "p75": 7.73,
+        "p90": 8.73
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3157304,
+      "demand_supply_ratio": 0.97,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.269,
+      "industry_avg_ctr": 0.00603,
+      "industry_avg_cpm": 7.44,
+      "industry_avg_conversion_rate": 0.0385
+    }
+  },
+  {
+    "market_segment": "food_beverage_los_angeles_dma",
+    "timestamp": "2026-02-17T16:37:24.628745",
+    "geo": "Los Angeles",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": 0,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.78,
+      "cpm_floor_24h_ago": 4.73,
+      "cpm_change_pct": 0.0943,
+      "cpm_percentiles": {
+        "p25": 3.29,
+        "p50": 6.38,
+        "p75": 7.22,
+        "p90": 9.52
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2854329,
+      "demand_supply_ratio": 1.42,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.318,
+      "industry_avg_ctr": 0.00768,
+      "industry_avg_cpm": 5.72,
+      "industry_avg_conversion_rate": 0.0188
+    }
+  },
+  {
+    "market_segment": "automotive_miami_dma",
+    "timestamp": "2026-02-17T16:37:24.628762",
+    "geo": "Miami",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 15,
+      "competitor_change_24h": -1,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.27,
+      "cpm_floor_24h_ago": 7.47,
+      "cpm_change_pct": 0.0873,
+      "cpm_percentiles": {
+        "p25": 3.01,
+        "p50": 5.74,
+        "p75": 7.82,
+        "p90": 8.93
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 754694,
+      "demand_supply_ratio": 2.42,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.251,
+      "industry_avg_ctr": 0.00641,
+      "industry_avg_cpm": 4.51,
+      "industry_avg_conversion_rate": 0.0193
+    }
+  },
+  {
+    "market_segment": "retail_miami_dma",
+    "timestamp": "2026-02-17T16:37:24.628775",
+    "geo": "Miami",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 18,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.11,
+      "cpm_floor_24h_ago": 6.8,
+      "cpm_change_pct": 0.0761,
+      "cpm_percentiles": {
+        "p25": 3.98,
+        "p50": 6.05,
+        "p75": 7.2,
+        "p90": 8.78
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4851329,
+      "demand_supply_ratio": 1.71,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.3,
+      "industry_avg_ctr": 0.00685,
+      "industry_avg_cpm": 6.23,
+      "industry_avg_conversion_rate": 0.0285
+    }
+  },
+  {
+    "market_segment": "financial_miami_dma",
+    "timestamp": "2026-02-17T16:37:24.628791",
+    "geo": "Miami",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 17,
+      "competitor_change_24h": 2,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.23,
+      "cpm_floor_24h_ago": 6.58,
+      "cpm_change_pct": -0.006,
+      "cpm_percentiles": {
+        "p25": 3.86,
+        "p50": 5.85,
+        "p75": 6.6,
+        "p90": 8.56
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3172952,
+      "demand_supply_ratio": 2.39,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.304,
+      "industry_avg_ctr": 0.00976,
+      "industry_avg_cpm": 6.0,
+      "industry_avg_conversion_rate": 0.0262
+    }
+  },
+  {
+    "market_segment": "healthcare_miami_dma",
+    "timestamp": "2026-02-17T16:37:24.628805",
+    "geo": "Miami",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 8,
+      "competitor_change_24h": 0,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.79,
+      "cpm_floor_24h_ago": 4.82,
+      "cpm_change_pct": 0.1322,
+      "cpm_percentiles": {
+        "p25": 4.8,
+        "p50": 5.63,
+        "p75": 7.41,
+        "p90": 8.34
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1270831,
+      "demand_supply_ratio": 1.72,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.225,
+      "industry_avg_ctr": 0.00617,
+      "industry_avg_cpm": 6.36,
+      "industry_avg_conversion_rate": 0.0372
+    }
+  },
+  {
+    "market_segment": "travel_miami_dma",
+    "timestamp": "2026-02-17T16:37:24.628819",
+    "geo": "Miami",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.35,
+      "cpm_floor_24h_ago": 5.36,
+      "cpm_change_pct": 0.0443,
+      "cpm_percentiles": {
+        "p25": 3.65,
+        "p50": 6.44,
+        "p75": 7.88,
+        "p90": 9.53
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3183877,
+      "demand_supply_ratio": 1.48,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.291,
+      "industry_avg_ctr": 0.0064,
+      "industry_avg_cpm": 7.03,
+      "industry_avg_conversion_rate": 0.0209
+    }
+  },
+  {
+    "market_segment": "entertainment_miami_dma",
+    "timestamp": "2026-02-17T16:37:24.628833",
+    "geo": "Miami",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 13,
+      "competitor_change_24h": 5,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.37,
+      "cpm_floor_24h_ago": 5.99,
+      "cpm_change_pct": 0.0398,
+      "cpm_percentiles": {
+        "p25": 4.91,
+        "p50": 6.39,
+        "p75": 6.07,
+        "p90": 8.16
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4080601,
+      "demand_supply_ratio": 1.87,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.241,
+      "industry_avg_ctr": 0.00585,
+      "industry_avg_cpm": 6.14,
+      "industry_avg_conversion_rate": 0.0276
+    }
+  },
+  {
+    "market_segment": "food_beverage_miami_dma",
+    "timestamp": "2026-02-17T16:37:24.628846",
+    "geo": "Miami",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 17,
+      "competitor_change_24h": -2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.96,
+      "cpm_floor_24h_ago": 5.84,
+      "cpm_change_pct": 0.0899,
+      "cpm_percentiles": {
+        "p25": 4.08,
+        "p50": 5.49,
+        "p75": 6.48,
+        "p90": 9.35
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1509505,
+      "demand_supply_ratio": 2.41,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.193,
+      "industry_avg_ctr": 0.00636,
+      "industry_avg_cpm": 6.04,
+      "industry_avg_conversion_rate": 0.0255
+    }
+  },
+  {
+    "market_segment": "automotive_dallas_dma",
+    "timestamp": "2026-02-17T16:37:24.628860",
+    "geo": "Dallas",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 5,
+      "competitor_change_24h": 1,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.16,
+      "cpm_floor_24h_ago": 4.39,
+      "cpm_change_pct": 0.0756,
+      "cpm_percentiles": {
+        "p25": 3.2,
+        "p50": 4.71,
+        "p75": 7.24,
+        "p90": 9.89
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4716123,
+      "demand_supply_ratio": 0.9,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.22,
+      "industry_avg_ctr": 0.00494,
+      "industry_avg_cpm": 7.12,
+      "industry_avg_conversion_rate": 0.0435
+    }
+  },
+  {
+    "market_segment": "retail_dallas_dma",
+    "timestamp": "2026-02-17T16:37:24.628874",
+    "geo": "Dallas",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 20,
+      "competitor_change_24h": -2,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.69,
+      "cpm_floor_24h_ago": 5.04,
+      "cpm_change_pct": 0.0187,
+      "cpm_percentiles": {
+        "p25": 4.81,
+        "p50": 4.5,
+        "p75": 7.83,
+        "p90": 9.03
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2163779,
+      "demand_supply_ratio": 1.72,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.29,
+      "industry_avg_ctr": 0.00863,
+      "industry_avg_cpm": 6.82,
+      "industry_avg_conversion_rate": 0.0317
+    }
+  },
+  {
+    "market_segment": "financial_dallas_dma",
+    "timestamp": "2026-02-17T16:37:24.628887",
+    "geo": "Dallas",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 17,
+      "competitor_change_24h": -2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.56,
+      "cpm_floor_24h_ago": 6.13,
+      "cpm_change_pct": 0.0429,
+      "cpm_percentiles": {
+        "p25": 3.63,
+        "p50": 6.05,
+        "p75": 6.23,
+        "p90": 8.24
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1367563,
+      "demand_supply_ratio": 1.14,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.288,
+      "industry_avg_ctr": 0.0053,
+      "industry_avg_cpm": 5.42,
+      "industry_avg_conversion_rate": 0.0256
+    }
+  },
+  {
+    "market_segment": "healthcare_dallas_dma",
+    "timestamp": "2026-02-17T16:37:24.628901",
+    "geo": "Dallas",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 9,
+      "competitor_change_24h": 5,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.32,
+      "cpm_floor_24h_ago": 6.6,
+      "cpm_change_pct": 0.0218,
+      "cpm_percentiles": {
+        "p25": 4.43,
+        "p50": 5.21,
+        "p75": 6.56,
+        "p90": 8.18
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4742330,
+      "demand_supply_ratio": 1.08,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.182,
+      "industry_avg_ctr": 0.0051,
+      "industry_avg_cpm": 7.45,
+      "industry_avg_conversion_rate": 0.0177
+    }
+  },
+  {
+    "market_segment": "travel_dallas_dma",
+    "timestamp": "2026-02-17T16:37:24.628916",
+    "geo": "Dallas",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 13,
+      "competitor_change_24h": -2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.3,
+      "cpm_floor_24h_ago": 7.28,
+      "cpm_change_pct": 0.1322,
+      "cpm_percentiles": {
+        "p25": 3.06,
+        "p50": 6.1,
+        "p75": 7.17,
+        "p90": 9.65
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2613394,
+      "demand_supply_ratio": 2.45,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.231,
+      "industry_avg_ctr": 0.0057,
+      "industry_avg_cpm": 6.45,
+      "industry_avg_conversion_rate": 0.0334
+    }
+  },
+  {
+    "market_segment": "entertainment_dallas_dma",
+    "timestamp": "2026-02-17T16:37:24.628931",
+    "geo": "Dallas",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 12,
+      "competitor_change_24h": 5,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.69,
+      "cpm_floor_24h_ago": 6.26,
+      "cpm_change_pct": 0.0131,
+      "cpm_percentiles": {
+        "p25": 4.09,
+        "p50": 5.17,
+        "p75": 6.92,
+        "p90": 9.53
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2796372,
+      "demand_supply_ratio": 1.04,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.31,
+      "industry_avg_ctr": 0.00556,
+      "industry_avg_cpm": 5.89,
+      "industry_avg_conversion_rate": 0.0185
+    }
+  },
+  {
+    "market_segment": "food_beverage_dallas_dma",
+    "timestamp": "2026-02-17T16:37:24.628945",
+    "geo": "Dallas",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 6,
+      "competitor_change_24h": 1,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.38,
+      "cpm_floor_24h_ago": 4.5,
+      "cpm_change_pct": -0.0266,
+      "cpm_percentiles": {
+        "p25": 3.3,
+        "p50": 5.72,
+        "p75": 7.19,
+        "p90": 9.51
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1911985,
+      "demand_supply_ratio": 1.98,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.285,
+      "industry_avg_ctr": 0.00582,
+      "industry_avg_cpm": 6.28,
+      "industry_avg_conversion_rate": 0.026
+    }
+  },
+  {
+    "market_segment": "automotive_atlanta_dma",
+    "timestamp": "2026-02-17T16:37:24.628958",
+    "geo": "Atlanta",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 12,
+      "competitor_change_24h": -2,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.59,
+      "cpm_floor_24h_ago": 7.14,
+      "cpm_change_pct": 0.0131,
+      "cpm_percentiles": {
+        "p25": 4.43,
+        "p50": 4.86,
+        "p75": 7.97,
+        "p90": 8.43
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3915292,
+      "demand_supply_ratio": 1.9,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.287,
+      "industry_avg_ctr": 0.00593,
+      "industry_avg_cpm": 4.61,
+      "industry_avg_conversion_rate": 0.0438
+    }
+  },
+  {
+    "market_segment": "retail_atlanta_dma",
+    "timestamp": "2026-02-17T16:37:24.628971",
+    "geo": "Atlanta",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 15,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.21,
+      "cpm_floor_24h_ago": 6.07,
+      "cpm_change_pct": 0.044,
+      "cpm_percentiles": {
+        "p25": 4.85,
+        "p50": 5.4,
+        "p75": 7.34,
+        "p90": 8.57
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3510477,
+      "demand_supply_ratio": 2.15,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.292,
+      "industry_avg_ctr": 0.00496,
+      "industry_avg_cpm": 6.81,
+      "industry_avg_conversion_rate": 0.0267
+    }
+  },
+  {
+    "market_segment": "financial_atlanta_dma",
+    "timestamp": "2026-02-17T16:37:24.628984",
+    "geo": "Atlanta",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 15,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.43,
+      "cpm_floor_24h_ago": 4.81,
+      "cpm_change_pct": 0.0884,
+      "cpm_percentiles": {
+        "p25": 4.41,
+        "p50": 6.22,
+        "p75": 6.74,
+        "p90": 7.62
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3762355,
+      "demand_supply_ratio": 2.05,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.212,
+      "industry_avg_ctr": 0.0083,
+      "industry_avg_cpm": 5.73,
+      "industry_avg_conversion_rate": 0.0415
+    }
+  },
+  {
+    "market_segment": "healthcare_atlanta_dma",
+    "timestamp": "2026-02-17T16:37:24.628997",
+    "geo": "Atlanta",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": -2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.08,
+      "cpm_floor_24h_ago": 7.19,
+      "cpm_change_pct": 0.1019,
+      "cpm_percentiles": {
+        "p25": 3.12,
+        "p50": 5.32,
+        "p75": 6.2,
+        "p90": 7.87
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4808516,
+      "demand_supply_ratio": 2.48,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.205,
+      "industry_avg_ctr": 0.00856,
+      "industry_avg_cpm": 5.24,
+      "industry_avg_conversion_rate": 0.0151
+    }
+  },
+  {
+    "market_segment": "travel_atlanta_dma",
+    "timestamp": "2026-02-17T16:37:24.629011",
+    "geo": "Atlanta",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 18,
+      "competitor_change_24h": 2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.48,
+      "cpm_floor_24h_ago": 4.72,
+      "cpm_change_pct": 0.1468,
+      "cpm_percentiles": {
+        "p25": 3.38,
+        "p50": 5.17,
+        "p75": 7.11,
+        "p90": 9.87
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2639125,
+      "demand_supply_ratio": 1.73,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.273,
+      "industry_avg_ctr": 0.00736,
+      "industry_avg_cpm": 4.78,
+      "industry_avg_conversion_rate": 0.0201
+    }
+  },
+  {
+    "market_segment": "entertainment_atlanta_dma",
+    "timestamp": "2026-02-17T16:37:24.629024",
+    "geo": "Atlanta",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 14,
+      "competitor_change_24h": 0,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.45,
+      "cpm_floor_24h_ago": 4.7,
+      "cpm_change_pct": 0.0243,
+      "cpm_percentiles": {
+        "p25": 4.5,
+        "p50": 5.13,
+        "p75": 6.41,
+        "p90": 7.97
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4529378,
+      "demand_supply_ratio": 1.3,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.289,
+      "industry_avg_ctr": 0.00833,
+      "industry_avg_cpm": 4.86,
+      "industry_avg_conversion_rate": 0.0302
+    }
+  },
+  {
+    "market_segment": "food_beverage_atlanta_dma",
+    "timestamp": "2026-02-17T16:37:24.629039",
+    "geo": "Atlanta",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 5,
+      "competitor_change_24h": 3,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.63,
+      "cpm_floor_24h_ago": 5.62,
+      "cpm_change_pct": 0.0428,
+      "cpm_percentiles": {
+        "p25": 4.18,
+        "p50": 5.78,
+        "p75": 7.25,
+        "p90": 8.44
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4765537,
+      "demand_supply_ratio": 1.48,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.305,
+      "industry_avg_ctr": 0.00723,
+      "industry_avg_cpm": 7.13,
+      "industry_avg_conversion_rate": 0.037
+    }
+  },
+  {
+    "market_segment": "automotive_phoenix_dma",
+    "timestamp": "2026-02-17T16:37:24.629055",
+    "geo": "Phoenix",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 6,
+      "competitor_change_24h": 4,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.86,
+      "cpm_floor_24h_ago": 5.35,
+      "cpm_change_pct": 0.0724,
+      "cpm_percentiles": {
+        "p25": 3.29,
+        "p50": 5.16,
+        "p75": 6.53,
+        "p90": 7.52
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 653567,
+      "demand_supply_ratio": 1.67,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.221,
+      "industry_avg_ctr": 0.0084,
+      "industry_avg_cpm": 7.1,
+      "industry_avg_conversion_rate": 0.0178
+    }
+  },
+  {
+    "market_segment": "retail_phoenix_dma",
+    "timestamp": "2026-02-17T16:37:24.629068",
+    "geo": "Phoenix",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 8,
+      "competitor_change_24h": 2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.28,
+      "cpm_floor_24h_ago": 4.87,
+      "cpm_change_pct": 0.0126,
+      "cpm_percentiles": {
+        "p25": 4.87,
+        "p50": 5.59,
+        "p75": 7.08,
+        "p90": 7.94
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3315313,
+      "demand_supply_ratio": 0.86,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.308,
+      "industry_avg_ctr": 0.00478,
+      "industry_avg_cpm": 6.11,
+      "industry_avg_conversion_rate": 0.0439
+    }
+  },
+  {
+    "market_segment": "financial_phoenix_dma",
+    "timestamp": "2026-02-17T16:37:24.629081",
+    "geo": "Phoenix",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 14,
+      "competitor_change_24h": 1,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.98,
+      "cpm_floor_24h_ago": 5.16,
+      "cpm_change_pct": 0.0571,
+      "cpm_percentiles": {
+        "p25": 3.05,
+        "p50": 6.34,
+        "p75": 6.07,
+        "p90": 9.12
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2472848,
+      "demand_supply_ratio": 1.57,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.267,
+      "industry_avg_ctr": 0.00462,
+      "industry_avg_cpm": 6.18,
+      "industry_avg_conversion_rate": 0.0449
+    }
+  },
+  {
+    "market_segment": "healthcare_phoenix_dma",
+    "timestamp": "2026-02-17T16:37:24.629095",
+    "geo": "Phoenix",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 5,
+      "competitor_change_24h": 5,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.34,
+      "cpm_floor_24h_ago": 6.62,
+      "cpm_change_pct": -0.0026,
+      "cpm_percentiles": {
+        "p25": 3.34,
+        "p50": 5.79,
+        "p75": 7.64,
+        "p90": 8.34
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3784198,
+      "demand_supply_ratio": 1.09,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.198,
+      "industry_avg_ctr": 0.00645,
+      "industry_avg_cpm": 6.05,
+      "industry_avg_conversion_rate": 0.0236
+    }
+  },
+  {
+    "market_segment": "travel_phoenix_dma",
+    "timestamp": "2026-02-17T16:37:24.629107",
+    "geo": "Phoenix",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": -1,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.66,
+      "cpm_floor_24h_ago": 3.77,
+      "cpm_change_pct": 0.0417,
+      "cpm_percentiles": {
+        "p25": 4.91,
+        "p50": 4.88,
+        "p75": 6.58,
+        "p90": 9.65
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 788090,
+      "demand_supply_ratio": 1.13,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.23,
+      "industry_avg_ctr": 0.00988,
+      "industry_avg_cpm": 4.7,
+      "industry_avg_conversion_rate": 0.0302
+    }
+  },
+  {
+    "market_segment": "entertainment_phoenix_dma",
+    "timestamp": "2026-02-17T16:37:24.629121",
+    "geo": "Phoenix",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 11,
+      "competitor_change_24h": 5,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.72,
+      "cpm_floor_24h_ago": 6.23,
+      "cpm_change_pct": -0.0198,
+      "cpm_percentiles": {
+        "p25": 4.06,
+        "p50": 6.2,
+        "p75": 7.82,
+        "p90": 8.04
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 544976,
+      "demand_supply_ratio": 2.15,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.268,
+      "industry_avg_ctr": 0.00495,
+      "industry_avg_cpm": 6.84,
+      "industry_avg_conversion_rate": 0.0334
+    }
+  },
+  {
+    "market_segment": "food_beverage_phoenix_dma",
+    "timestamp": "2026-02-17T16:37:24.629134",
+    "geo": "Phoenix",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 8,
+      "competitor_change_24h": -2,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.28,
+      "cpm_floor_24h_ago": 5.19,
+      "cpm_change_pct": 0.0935,
+      "cpm_percentiles": {
+        "p25": 4.18,
+        "p50": 5.53,
+        "p75": 6.69,
+        "p90": 7.95
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4190322,
+      "demand_supply_ratio": 1.88,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.278,
+      "industry_avg_ctr": 0.00933,
+      "industry_avg_cpm": 7.37,
+      "industry_avg_conversion_rate": 0.0403
+    }
+  },
+  {
+    "market_segment": "automotive_denver_dma",
+    "timestamp": "2026-02-17T16:37:24.629148",
+    "geo": "Denver",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 12,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.41,
+      "cpm_floor_24h_ago": 6.75,
+      "cpm_change_pct": 0.1442,
+      "cpm_percentiles": {
+        "p25": 3.27,
+        "p50": 6.08,
+        "p75": 6.29,
+        "p90": 8.25
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1869812,
+      "demand_supply_ratio": 0.97,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.278,
+      "industry_avg_ctr": 0.00462,
+      "industry_avg_cpm": 5.31,
+      "industry_avg_conversion_rate": 0.0401
+    }
+  },
+  {
+    "market_segment": "retail_denver_dma",
+    "timestamp": "2026-02-17T16:37:24.629161",
+    "geo": "Denver",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 6,
+      "competitor_change_24h": 4,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.42,
+      "cpm_floor_24h_ago": 5.43,
+      "cpm_change_pct": -0.0201,
+      "cpm_percentiles": {
+        "p25": 4.79,
+        "p50": 4.89,
+        "p75": 6.13,
+        "p90": 8.24
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4939794,
+      "demand_supply_ratio": 0.82,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.206,
+      "industry_avg_ctr": 0.00732,
+      "industry_avg_cpm": 7.19,
+      "industry_avg_conversion_rate": 0.0294
+    }
+  },
+  {
+    "market_segment": "financial_denver_dma",
+    "timestamp": "2026-02-17T16:37:24.629177",
+    "geo": "Denver",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 5,
+      "competitor_change_24h": 1,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.77,
+      "cpm_floor_24h_ago": 4.0,
+      "cpm_change_pct": 0.0999,
+      "cpm_percentiles": {
+        "p25": 4.14,
+        "p50": 6.32,
+        "p75": 6.1,
+        "p90": 8.3
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4321714,
+      "demand_supply_ratio": 1.95,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.278,
+      "industry_avg_ctr": 0.00944,
+      "industry_avg_cpm": 6.82,
+      "industry_avg_conversion_rate": 0.0191
+    }
+  },
+  {
+    "market_segment": "healthcare_denver_dma",
+    "timestamp": "2026-02-17T16:37:24.629191",
+    "geo": "Denver",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": 0,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.4,
+      "cpm_floor_24h_ago": 5.51,
+      "cpm_change_pct": 0.1336,
+      "cpm_percentiles": {
+        "p25": 4.47,
+        "p50": 6.03,
+        "p75": 6.71,
+        "p90": 9.23
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3337936,
+      "demand_supply_ratio": 1.0,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.304,
+      "industry_avg_ctr": 0.00749,
+      "industry_avg_cpm": 6.21,
+      "industry_avg_conversion_rate": 0.0202
+    }
+  },
+  {
+    "market_segment": "travel_denver_dma",
+    "timestamp": "2026-02-17T16:37:24.629207",
+    "geo": "Denver",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 5,
+      "competitor_change_24h": 3,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.01,
+      "cpm_floor_24h_ago": 6.26,
+      "cpm_change_pct": 0.0103,
+      "cpm_percentiles": {
+        "p25": 4.2,
+        "p50": 6.38,
+        "p75": 6.98,
+        "p90": 7.87
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3563925,
+      "demand_supply_ratio": 1.83,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.257,
+      "industry_avg_ctr": 0.00485,
+      "industry_avg_cpm": 6.07,
+      "industry_avg_conversion_rate": 0.0292
+    }
+  },
+  {
+    "market_segment": "entertainment_denver_dma",
+    "timestamp": "2026-02-17T16:37:24.629219",
+    "geo": "Denver",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 13,
+      "competitor_change_24h": -2,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.43,
+      "cpm_floor_24h_ago": 6.04,
+      "cpm_change_pct": 0.0429,
+      "cpm_percentiles": {
+        "p25": 3.86,
+        "p50": 6.43,
+        "p75": 7.43,
+        "p90": 8.53
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1021660,
+      "demand_supply_ratio": 1.69,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.211,
+      "industry_avg_ctr": 0.00684,
+      "industry_avg_cpm": 4.97,
+      "industry_avg_conversion_rate": 0.0387
+    }
+  },
+  {
+    "market_segment": "food_beverage_denver_dma",
+    "timestamp": "2026-02-17T16:37:24.629232",
+    "geo": "Denver",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": 5,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.97,
+      "cpm_floor_24h_ago": 6.94,
+      "cpm_change_pct": 0.008,
+      "cpm_percentiles": {
+        "p25": 4.33,
+        "p50": 6.3,
+        "p75": 6.09,
+        "p90": 9.41
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3932836,
+      "demand_supply_ratio": 0.99,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.196,
+      "industry_avg_ctr": 0.00986,
+      "industry_avg_cpm": 5.26,
+      "industry_avg_conversion_rate": 0.0157
+    }
+  },
+  {
+    "market_segment": "automotive_seattle_dma",
+    "timestamp": "2026-02-17T16:37:24.629246",
+    "geo": "Seattle",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 18,
+      "competitor_change_24h": 3,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.46,
+      "cpm_floor_24h_ago": 7.29,
+      "cpm_change_pct": 0.0864,
+      "cpm_percentiles": {
+        "p25": 3.64,
+        "p50": 5.19,
+        "p75": 6.0,
+        "p90": 8.23
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2809067,
+      "demand_supply_ratio": 0.84,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.215,
+      "industry_avg_ctr": 0.00777,
+      "industry_avg_cpm": 5.98,
+      "industry_avg_conversion_rate": 0.0419
+    }
+  },
+  {
+    "market_segment": "retail_seattle_dma",
+    "timestamp": "2026-02-17T16:37:24.629261",
+    "geo": "Seattle",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 10,
+      "competitor_change_24h": 0,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.64,
+      "cpm_floor_24h_ago": 5.22,
+      "cpm_change_pct": -0.0012,
+      "cpm_percentiles": {
+        "p25": 4.09,
+        "p50": 5.7,
+        "p75": 7.46,
+        "p90": 7.57
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3832660,
+      "demand_supply_ratio": 1.73,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.313,
+      "industry_avg_ctr": 0.00773,
+      "industry_avg_cpm": 6.47,
+      "industry_avg_conversion_rate": 0.026
+    }
+  },
+  {
+    "market_segment": "financial_seattle_dma",
+    "timestamp": "2026-02-17T16:37:24.629274",
+    "geo": "Seattle",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 9,
+      "competitor_change_24h": -2,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 5.11,
+      "cpm_floor_24h_ago": 7.16,
+      "cpm_change_pct": 0.0829,
+      "cpm_percentiles": {
+        "p25": 4.77,
+        "p50": 5.81,
+        "p75": 6.45,
+        "p90": 8.88
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 4064450,
+      "demand_supply_ratio": 1.29,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.307,
+      "industry_avg_ctr": 0.0059,
+      "industry_avg_cpm": 7.33,
+      "industry_avg_conversion_rate": 0.0374
+    }
+  },
+  {
+    "market_segment": "healthcare_seattle_dma",
+    "timestamp": "2026-02-17T16:37:24.629287",
+    "geo": "Seattle",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 9,
+      "competitor_change_24h": -2,
+      "competition_level": "low"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.97,
+      "cpm_floor_24h_ago": 3.24,
+      "cpm_change_pct": -0.0133,
+      "cpm_percentiles": {
+        "p25": 3.2,
+        "p50": 6.01,
+        "p75": 6.82,
+        "p90": 9.51
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1369017,
+      "demand_supply_ratio": 0.85,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.186,
+      "industry_avg_ctr": 0.00588,
+      "industry_avg_cpm": 6.68,
+      "industry_avg_conversion_rate": 0.0355
+    }
+  },
+  {
+    "market_segment": "travel_seattle_dma",
+    "timestamp": "2026-02-17T16:37:24.629302",
+    "geo": "Seattle",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 20,
+      "competitor_change_24h": -2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.37,
+      "cpm_floor_24h_ago": 5.75,
+      "cpm_change_pct": -0.0066,
+      "cpm_percentiles": {
+        "p25": 4.97,
+        "p50": 5.65,
+        "p75": 6.99,
+        "p90": 8.58
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 675800,
+      "demand_supply_ratio": 1.89,
+      "inventory_tightness": "loose"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.295,
+      "industry_avg_ctr": 0.005,
+      "industry_avg_cpm": 5.28,
+      "industry_avg_conversion_rate": 0.0245
+    }
+  },
+  {
+    "market_segment": "entertainment_seattle_dma",
+    "timestamp": "2026-02-17T16:37:24.629315",
+    "geo": "Seattle",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": 5,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.59,
+      "cpm_floor_24h_ago": 4.61,
+      "cpm_change_pct": 0.0512,
+      "cpm_percentiles": {
+        "p25": 4.46,
+        "p50": 5.13,
+        "p75": 6.01,
+        "p90": 8.64
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2924395,
+      "demand_supply_ratio": 1.23,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.238,
+      "industry_avg_ctr": 0.00605,
+      "industry_avg_cpm": 5.3,
+      "industry_avg_conversion_rate": 0.0281
+    }
+  },
+  {
+    "market_segment": "food_beverage_seattle_dma",
+    "timestamp": "2026-02-17T16:37:24.629328",
+    "geo": "Seattle",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 19,
+      "competitor_change_24h": 4,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 7.15,
+      "cpm_floor_24h_ago": 6.38,
+      "cpm_change_pct": -0.0085,
+      "cpm_percentiles": {
+        "p25": 3.58,
+        "p50": 4.88,
+        "p75": 6.53,
+        "p90": 9.25
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1697053,
+      "demand_supply_ratio": 1.93,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.264,
+      "industry_avg_ctr": 0.00783,
+      "industry_avg_cpm": 7.18,
+      "industry_avg_conversion_rate": 0.0191
+    }
+  },
+  {
+    "market_segment": "automotive_boston_dma",
+    "timestamp": "2026-02-17T16:37:24.629344",
+    "geo": "Boston",
+    "industry": "automotive",
+    "competitive_landscape": {
+      "active_competitors": 17,
+      "competitor_change_24h": 3,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.81,
+      "cpm_floor_24h_ago": 6.05,
+      "cpm_change_pct": 0.0496,
+      "cpm_percentiles": {
+        "p25": 4.14,
+        "p50": 5.39,
+        "p75": 6.64,
+        "p90": 8.82
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2515283,
+      "demand_supply_ratio": 2.23,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.238,
+      "industry_avg_ctr": 0.0087,
+      "industry_avg_cpm": 4.64,
+      "industry_avg_conversion_rate": 0.0232
+    }
+  },
+  {
+    "market_segment": "retail_boston_dma",
+    "timestamp": "2026-02-17T16:37:24.629359",
+    "geo": "Boston",
+    "industry": "retail",
+    "competitive_landscape": {
+      "active_competitors": 7,
+      "competitor_change_24h": -1,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.63,
+      "cpm_floor_24h_ago": 5.94,
+      "cpm_change_pct": -0.0225,
+      "cpm_percentiles": {
+        "p25": 4.41,
+        "p50": 5.73,
+        "p75": 7.79,
+        "p90": 9.86
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1004563,
+      "demand_supply_ratio": 1.53,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.219,
+      "industry_avg_ctr": 0.00864,
+      "industry_avg_cpm": 4.54,
+      "industry_avg_conversion_rate": 0.026
+    }
+  },
+  {
+    "market_segment": "financial_boston_dma",
+    "timestamp": "2026-02-17T16:37:24.629376",
+    "geo": "Boston",
+    "industry": "financial",
+    "competitive_landscape": {
+      "active_competitors": 6,
+      "competitor_change_24h": 2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 3.57,
+      "cpm_floor_24h_ago": 3.53,
+      "cpm_change_pct": 0.0774,
+      "cpm_percentiles": {
+        "p25": 4.8,
+        "p50": 5.73,
+        "p75": 6.6,
+        "p90": 9.2
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 2024993,
+      "demand_supply_ratio": 1.85,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.279,
+      "industry_avg_ctr": 0.00567,
+      "industry_avg_cpm": 5.54,
+      "industry_avg_conversion_rate": 0.0303
+    }
+  },
+  {
+    "market_segment": "healthcare_boston_dma",
+    "timestamp": "2026-02-17T16:37:24.629391",
+    "geo": "Boston",
+    "industry": "healthcare",
+    "competitive_landscape": {
+      "active_competitors": 12,
+      "competitor_change_24h": 2,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.75,
+      "cpm_floor_24h_ago": 4.01,
+      "cpm_change_pct": 0.1125,
+      "cpm_percentiles": {
+        "p25": 4.96,
+        "p50": 5.82,
+        "p75": 6.29,
+        "p90": 9.78
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 1284577,
+      "demand_supply_ratio": 1.49,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.279,
+      "industry_avg_ctr": 0.00628,
+      "industry_avg_cpm": 6.36,
+      "industry_avg_conversion_rate": 0.0419
+    }
+  },
+  {
+    "market_segment": "travel_boston_dma",
+    "timestamp": "2026-02-17T16:37:24.629406",
+    "geo": "Boston",
+    "industry": "travel",
+    "competitive_landscape": {
+      "active_competitors": 13,
+      "competitor_change_24h": 0,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 6.9,
+      "cpm_floor_24h_ago": 3.01,
+      "cpm_change_pct": -0.008,
+      "cpm_percentiles": {
+        "p25": 4.55,
+        "p50": 5.48,
+        "p75": 7.78,
+        "p90": 7.7
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 948067,
+      "demand_supply_ratio": 2.44,
+      "inventory_tightness": "high"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.283,
+      "industry_avg_ctr": 0.00596,
+      "industry_avg_cpm": 5.98,
+      "industry_avg_conversion_rate": 0.0251
+    }
+  },
+  {
+    "market_segment": "entertainment_boston_dma",
+    "timestamp": "2026-02-17T16:37:24.629420",
+    "geo": "Boston",
+    "industry": "entertainment",
+    "competitive_landscape": {
+      "active_competitors": 12,
+      "competitor_change_24h": 4,
+      "competition_level": "medium"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.97,
+      "cpm_floor_24h_ago": 3.8,
+      "cpm_change_pct": 0.0786,
+      "cpm_percentiles": {
+        "p25": 4.8,
+        "p50": 6.33,
+        "p75": 6.44,
+        "p90": 8.58
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3941657,
+      "demand_supply_ratio": 1.68,
+      "inventory_tightness": "tight"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.185,
+      "industry_avg_ctr": 0.00765,
+      "industry_avg_cpm": 4.99,
+      "industry_avg_conversion_rate": 0.0399
+    }
+  },
+  {
+    "market_segment": "food_beverage_boston_dma",
+    "timestamp": "2026-02-17T16:37:24.629434",
+    "geo": "Boston",
+    "industry": "food_beverage",
+    "competitive_landscape": {
+      "active_competitors": 15,
+      "competitor_change_24h": 1,
+      "competition_level": "high"
+    },
+    "pricing_intelligence": {
+      "current_cpm_floor": 4.44,
+      "cpm_floor_24h_ago": 7.44,
+      "cpm_change_pct": 0.0827,
+      "cpm_percentiles": {
+        "p25": 4.79,
+        "p50": 6.29,
+        "p75": 6.27,
+        "p90": 9.89
+      }
+    },
+    "inventory_availability": {
+      "available_impressions_24h": 3457485,
+      "demand_supply_ratio": 1.25,
+      "inventory_tightness": "normal"
+    },
+    "performance_benchmarks": {
+      "industry_avg_win_rate": 0.289,
+      "industry_avg_ctr": 0.00711,
+      "industry_avg_cpm": 7.04,
+      "industry_avg_conversion_rate": 0.0196
+    }
+  }
+]

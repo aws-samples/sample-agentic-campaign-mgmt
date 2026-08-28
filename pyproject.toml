@@ -1,0 +1,28 @@
+[project]
+name = "campaign-optimization"
+version = "1.0.0"
+description = "AI agent for programmatic advertising campaign optimization, built with Amazon Bedrock and Strands Agents SDK"
+license = "MIT-0"
+requires-python = ">=3.12"
+dependencies = [
+    # ML pipeline (ml/) — pandas used by training scripts
+    "pandas>=2.1.0",
+    # ML pipeline (ml/)
+    "xgboost>=2.0.0",
+    "scikit-learn>=1.4.0",
+    "numpy>=1.26.0",
+    "joblib>=1.3.0",
+    "playwright>=1.58.0",
+    # Strands agent SDK
+    "strands-agents>=0.1.0",
+    "strands-agents-tools>=0.1.0",
+    # AgentCore Runtime SDK
+    "bedrock-agentcore>=0.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "bedrock-agentcore-starter-toolkit>=0.3.3",
+    # AWS SDK — needed for SageMaker endpoint invocation and deploy scripts
+    "boto3>=1.34.0",
+]

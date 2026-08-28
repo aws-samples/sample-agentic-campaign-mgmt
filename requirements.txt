@@ -1,0 +1,25 @@
+# This project uses uv (pyproject.toml + uv.lock) as its package manager.
+# This file is a convenience export for environments without uv.
+#
+# Preferred workflow:
+#   uv sync              # installs all deps, creates .venv automatically
+#   uv add <package>     # add a new dependency
+#   uv run python ...    # run a script inside the managed venv
+#
+# Fallback (pip):
+#   python -m venv .venv && source .venv/Scripts/activate
+#   pip install -r requirements.txt
+
+# ── ML pipeline (ml/) — pandas used by training scripts ──────────────────────
+pandas>=2.1.0
+xgboost>=2.0.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+joblib>=1.3.0
+
+# ── Strands agent SDK ───────────────────────────────────────────────────────
+strands-agents>=0.1.0
+strands-agents-tools>=0.1.0
+
+# ── AgentCore Runtime SDK ───────────────────────────────────────────────────
+bedrock-agentcore>=0.1.0

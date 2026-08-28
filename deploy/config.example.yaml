@@ -1,0 +1,34 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: MIT-0
+#
+# Copy this file to config.yaml and fill in your values.
+# config.yaml is gitignored — never commit real account IDs or ARNs.
+
+# AWS account and region
+aws_account_id: "000000000000"
+aws_region: "us-west-2"
+
+# SageMaker endpoints (created by deploy_sagemaker_*.py)
+sagemaker:
+  diagnosis_endpoint: "campaign-opt-diagnosis"
+  recommendation_endpoint: "campaign-opt-recommendation"
+  instance_type: "ml.t3.medium"
+
+# Lambda functions (created by deploy_lambda_zip.py)
+lambda:
+  function_name: "campaign-opt-diagnose-ml"
+  role_name: "campaign-opt-lambda-role"
+  runtime: "python3.11"
+  timeout: 30
+  memory_mb: 512
+
+# AgentCore Gateway (created by deploy_gateway.py)
+gateway:
+  name: "campaign-optimization-gateway"
+  role_name: "AgentCoreGatewayRole-campaign-optimization"
+
+# AgentCore Runtime (created by deploy_agentcore.py)
+agentcore:
+  runtime_name: "campaign-optimization-agent"
+  # ECR image built by the AgentCore starter toolkit
+  # image_uri: "000000000000.dkr.ecr.us-west-2.amazonaws.com/bedrock-agentcore-campaign_optimization_agent:latest"

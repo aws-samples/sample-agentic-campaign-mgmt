@@ -1,0 +1,4313 @@
+[
+  {
+    "campaign_id": "4782",
+    "campaign_name": "Honda Spring Sale - Chicago",
+    "client_id": "client_honda_001",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.591923",
+    "industry": "automotive",
+    "objective": "traffic",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Chicago"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "female",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "health",
+        "automotive",
+        "food"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_4"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.2,
+      "bid_floor": 2.1,
+      "bid_ceiling": 12.6,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.591923",
+          "bid": 4.2,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 15000.0,
+      "daily": 2142.86,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.591923",
+      "end": "2026-02-21T16:37:24.591957",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_395",
+      "creative_727"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 500000,
+      "frequency_cap": {
+        "impressions": 10,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "5201",
+    "campaign_name": "Luxury Apartments - Miami",
+    "client_id": "client_realestate_002",
+    "trader_id": "trader_bravo",
+    "status": "active",
+    "created_at": "2026-02-07T16:37:24.591964",
+    "industry": "retail",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Miami"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "male",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "food",
+        "travel",
+        "automotive",
+        "finance"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 6.8,
+      "bid_floor": 3.4,
+      "bid_ceiling": 20.4,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-09T16:37:24.591964",
+          "bid": 6.8,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 25000.0,
+      "daily": 1666.67,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-09T16:37:24.591964",
+      "end": "2026-02-24T16:37:24.591966",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_471",
+      "creative_290",
+      "creative_800"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 2500000,
+      "frequency_cap": {
+        "impressions": 7,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "5525",
+    "campaign_name": "Best Buy Back to School - Chicago",
+    "client_id": "client_834",
+    "trader_id": "trader_charlie",
+    "status": "active",
+    "created_at": "2026-02-08T16:37:24.592035",
+    "industry": "retail",
+    "objective": "traffic",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Chicago"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "finance",
+        "sports"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_2"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.01,
+      "bid_floor": 3.5,
+      "bid_ceiling": 21.03,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-10T16:37:24.592035",
+          "bid": 7.01,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 20000,
+      "daily": 666.67,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-10T16:37:24.592035",
+      "end": "2026-03-12T16:37:24.592038",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_528",
+      "creative_862",
+      "creative_208"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 4000000,
+      "frequency_cap": {
+        "impressions": 3,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "9209",
+    "campaign_name": "Local Restaurant Delivery Service - Seattle",
+    "client_id": "client_846",
+    "trader_id": "trader_bravo",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.592076",
+    "industry": "food_beverage",
+    "objective": "awareness",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Seattle"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "female",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "automotive",
+        "entertainment"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.54,
+      "bid_floor": 2.27,
+      "bid_ceiling": 13.62,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.592076",
+          "bid": 4.54,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 2142.86,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.592076",
+      "end": "2026-02-28T16:37:24.592079",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_253",
+      "creative_244",
+      "creative_803"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 6,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "7419",
+    "campaign_name": "HomeGoods Holiday Sale - Phoenix",
+    "client_id": "client_103",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-06T16:37:24.592101",
+    "industry": "retail",
+    "objective": "awareness",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Phoenix"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "female",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "entertainment",
+        "health",
+        "finance"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_4"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.89,
+      "bid_floor": 2.44,
+      "bid_ceiling": 14.67,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-08T16:37:24.592101",
+          "bid": 4.89,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 25000,
+      "daily": 2500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-08T16:37:24.592101",
+      "end": "2026-02-18T16:37:24.592103",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_725",
+      "creative_392"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 5000000,
+      "frequency_cap": {
+        "impressions": 5,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "6669",
+    "campaign_name": "Sports Arena Concert Series - Phoenix",
+    "client_id": "client_998",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-14T16:37:24.592118",
+    "industry": "entertainment",
+    "objective": "traffic",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Phoenix"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "entertainment",
+        "automotive",
+        "finance"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_8"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 3.85,
+      "bid_floor": 1.93,
+      "bid_ceiling": 11.55,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-16T16:37:24.592118",
+          "bid": 3.85,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 10000,
+      "daily": 714.29,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-16T16:37:24.592118",
+      "end": "2026-03-02T16:37:24.592120",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_748",
+      "creative_425",
+      "creative_421"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 2000000,
+      "frequency_cap": {
+        "impressions": 8,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "5019",
+    "campaign_name": "Booking.com Flight Deals - New York",
+    "client_id": "client_131",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-09T16:37:24.592137",
+    "industry": "travel",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "New York"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "all",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "automotive",
+        "entertainment",
+        "shopping"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.65,
+      "bid_floor": 3.83,
+      "bid_ceiling": 22.95,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-11T16:37:24.592137",
+          "bid": 7.65,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 15000,
+      "daily": 714.29,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-11T16:37:24.592137",
+      "end": "2026-03-04T16:37:24.592138",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_500",
+      "creative_501",
+      "creative_110"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 3000000,
+      "frequency_cap": {
+        "impressions": 7,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "7266",
+    "campaign_name": "TJ Maxx Back to School - Phoenix",
+    "client_id": "client_946",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.592156",
+    "industry": "retail",
+    "objective": "conversions",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Phoenix"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "entertainment",
+        "finance"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_3"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.5,
+      "bid_floor": 3.75,
+      "bid_ceiling": 22.5,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.592156",
+          "bid": 7.5,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 3000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.592156",
+      "end": "2026-02-24T16:37:24.592158",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_530"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 10,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "4473",
+    "campaign_name": "Aetna Telemedicine - Atlanta",
+    "client_id": "client_790",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-07T16:37:24.592171",
+    "industry": "healthcare",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Atlanta"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "female",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "sports",
+        "travel",
+        "automotive"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.05,
+      "bid_floor": 3.52,
+      "bid_ceiling": 21.15,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-09T16:37:24.592171",
+          "bid": 7.05,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 25000,
+      "daily": 2500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-09T16:37:24.592171",
+      "end": "2026-02-19T16:37:24.592173",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_589"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 5000000,
+      "frequency_cap": {
+        "impressions": 7,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "4016",
+    "campaign_name": "HomeGoods Flash Sale - Chicago",
+    "client_id": "client_760",
+    "trader_id": "trader_bravo",
+    "status": "active",
+    "created_at": "2026-02-06T16:37:24.592187",
+    "industry": "retail",
+    "objective": "awareness",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Chicago"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "female",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "travel",
+        "automotive",
+        "entertainment",
+        "sports"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 5.92,
+      "bid_floor": 2.96,
+      "bid_ceiling": 17.76,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-08T16:37:24.592187",
+          "bid": 5.92,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 75000,
+      "daily": 5357.14,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-08T16:37:24.592187",
+      "end": "2026-02-22T16:37:24.592189",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_432",
+      "creative_604",
+      "creative_513"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 15000000,
+      "frequency_cap": {
+        "impressions": 5,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "9788",
+    "campaign_name": "Chevrolet Spring Sale - Denver",
+    "client_id": "client_944",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-14T16:37:24.592203",
+    "industry": "automotive",
+    "objective": "conversions",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Denver"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "female",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "food",
+        "sports"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_2"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.5,
+      "bid_floor": 2.25,
+      "bid_ceiling": 13.5,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-16T16:37:24.592203",
+          "bid": 4.5,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 50000,
+      "daily": 3571.43,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-16T16:37:24.592203",
+      "end": "2026-03-02T16:37:24.592205",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_874"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 10000000,
+      "frequency_cap": {
+        "impressions": 8,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "7201",
+    "campaign_name": "Local Restaurant Restaurant Week - Seattle",
+    "client_id": "client_516",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-07T16:37:24.592222",
+    "industry": "food_beverage",
+    "objective": "awareness",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Seattle"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "female",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "entertainment",
+        "sports"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 9.44,
+      "bid_floor": 4.72,
+      "bid_ceiling": 28.32,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-09T16:37:24.592222",
+          "bid": 9.44,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 100000,
+      "daily": 10000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-09T16:37:24.592222",
+      "end": "2026-02-19T16:37:24.592224",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_706"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 20000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "7178",
+    "campaign_name": "Fast Casual Chain New Menu Launch - New York",
+    "client_id": "client_250",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-01T16:37:24.592237",
+    "industry": "food_beverage",
+    "objective": "traffic",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "New York"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "male",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "health",
+        "shopping",
+        "finance",
+        "sports"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.88,
+      "bid_floor": 2.44,
+      "bid_ceiling": 14.64,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-03T16:37:24.592237",
+          "bid": 4.88,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 5000,
+      "daily": 166.67,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-03T16:37:24.592237",
+      "end": "2026-03-05T16:37:24.592239",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_844",
+      "creative_695"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 1000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "8780",
+    "campaign_name": "Humana Telemedicine - Phoenix",
+    "client_id": "client_438",
+    "trader_id": "trader_bravo",
+    "status": "active",
+    "created_at": "2026-02-13T16:37:24.592252",
+    "industry": "healthcare",
+    "objective": "conversions",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Phoenix"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "all",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "finance",
+        "sports",
+        "shopping",
+        "travel"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 9.04,
+      "bid_floor": 4.52,
+      "bid_ceiling": 27.12,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-15T16:37:24.592252",
+          "bid": 9.04,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 1000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-15T16:37:24.592252",
+      "end": "2026-03-17T16:37:24.592254",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_282"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 5,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "7431",
+    "campaign_name": "Humana Telemedicine - Denver",
+    "client_id": "client_574",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-09T16:37:24.592270",
+    "industry": "healthcare",
+    "objective": "traffic",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Denver"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "all",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "entertainment",
+        "travel",
+        "sports",
+        "shopping"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_1"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 6.06,
+      "bid_floor": 3.03,
+      "bid_ceiling": 18.18,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-11T16:37:24.592270",
+          "bid": 6.06,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 75000,
+      "daily": 7500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-11T16:37:24.592270",
+      "end": "2026-02-21T16:37:24.592272",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_501"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 15000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "9950",
+    "campaign_name": "Target Back to School - New York",
+    "client_id": "client_222",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-13T16:37:24.592285",
+    "industry": "retail",
+    "objective": "traffic",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "New York"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "female",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "sports",
+        "food",
+        "automotive"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_5"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 6.62,
+      "bid_floor": 3.31,
+      "bid_ceiling": 19.86,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-15T16:37:24.592285",
+          "bid": 6.62,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 25000,
+      "daily": 2500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-15T16:37:24.592285",
+      "end": "2026-02-25T16:37:24.592287",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_657"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 5000000,
+      "frequency_cap": {
+        "impressions": 6,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "5916",
+    "campaign_name": "Wells Fargo Personal Loans - New York",
+    "client_id": "client_551",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-08T16:37:24.592300",
+    "industry": "financial",
+    "objective": "awareness",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "New York"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "male",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "food",
+        "shopping",
+        "automotive"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_8"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.88,
+      "bid_floor": 3.94,
+      "bid_ceiling": 23.64,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-10T16:37:24.592300",
+          "bid": 7.88,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 20000,
+      "daily": 2000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-10T16:37:24.592300",
+      "end": "2026-02-20T16:37:24.592302",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_398",
+      "creative_761"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 4000000,
+      "frequency_cap": {
+        "impressions": 5,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "6051",
+    "campaign_name": "Ford Clearance Event - Miami",
+    "client_id": "client_238",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.592315",
+    "industry": "automotive",
+    "objective": "traffic",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Miami"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "male",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "sports",
+        "health"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 6.94,
+      "bid_floor": 3.47,
+      "bid_ceiling": 20.82,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.592315",
+          "bid": 6.94,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 15000,
+      "daily": 2142.86,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.592315",
+      "end": "2026-02-21T16:37:24.592317",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_957",
+      "creative_895",
+      "creative_508"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 3000000,
+      "frequency_cap": {
+        "impressions": 8,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "7609",
+    "campaign_name": "Humana Health Insurance - Phoenix",
+    "client_id": "client_962",
+    "trader_id": "trader_charlie",
+    "status": "active",
+    "created_at": "2026-02-07T16:37:24.592330",
+    "industry": "healthcare",
+    "objective": "traffic",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Phoenix"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "entertainment",
+        "shopping",
+        "automotive"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_4"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.94,
+      "bid_floor": 3.97,
+      "bid_ceiling": 23.82,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-09T16:37:24.592330",
+          "bid": 7.94,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 20000,
+      "daily": 1428.57,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-09T16:37:24.592330",
+      "end": "2026-02-23T16:37:24.592332",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_925",
+      "creative_660",
+      "creative_815"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 4000000,
+      "frequency_cap": {
+        "impressions": 8,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "4676",
+    "campaign_name": "Aetna Wellness Program - Seattle",
+    "client_id": "client_414",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.592344",
+    "industry": "healthcare",
+    "objective": "awareness",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Seattle"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "male",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "sports",
+        "shopping",
+        "travel"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_1"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.2,
+      "bid_floor": 2.1,
+      "bid_ceiling": 12.6,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.592344",
+          "bid": 4.2,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 10000,
+      "daily": 1428.57,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.592344",
+      "end": "2026-02-21T16:37:24.592346",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_707"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 2000000,
+      "frequency_cap": {
+        "impressions": 8,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "9123",
+    "campaign_name": "Ford Spring Sale - New York",
+    "client_id": "client_758",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-06T16:37:24.592359",
+    "industry": "automotive",
+    "objective": "traffic",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "New York"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "female",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "food",
+        "travel",
+        "health"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_5"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.8,
+      "bid_floor": 2.4,
+      "bid_ceiling": 14.4,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-08T16:37:24.592359",
+          "bid": 4.8,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 20000,
+      "daily": 2000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-08T16:37:24.592359",
+      "end": "2026-02-18T16:37:24.592360",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_533",
+      "creative_109"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 4000000,
+      "frequency_cap": {
+        "impressions": 4,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "5680",
+    "campaign_name": "UnitedHealth Urgent Care - Miami",
+    "client_id": "client_360",
+    "trader_id": "trader_charlie",
+    "status": "active",
+    "created_at": "2026-02-06T16:37:24.592373",
+    "industry": "healthcare",
+    "objective": "traffic",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Miami"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "male",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "travel",
+        "sports",
+        "food"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_1"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.09,
+      "bid_floor": 2.04,
+      "bid_ceiling": 12.27,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-08T16:37:24.592373",
+          "bid": 4.09,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 3000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-08T16:37:24.592373",
+      "end": "2026-02-18T16:37:24.592375",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_873",
+      "creative_594",
+      "creative_602"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 5,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "4640",
+    "campaign_name": "Wells Fargo Credit Card Offer - Denver",
+    "client_id": "client_959",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-01-28T16:37:24.592389",
+    "industry": "financial",
+    "objective": "awareness",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Denver"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "all",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "travel",
+        "food",
+        "shopping",
+        "automotive"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 3.1,
+      "bid_floor": 1.55,
+      "bid_ceiling": 9.3,
+      "bid_history": [
+        {
+          "timestamp": "2026-01-30T16:37:24.592389",
+          "bid": 3.1,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 75000,
+      "daily": 2500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-01-30T16:37:24.592389",
+      "end": "2026-03-01T16:37:24.592391",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_564",
+      "creative_115",
+      "creative_616"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 15000000,
+      "frequency_cap": {
+        "impressions": 6,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Cannot expand geography - venue is local"
+    }
+  },
+  {
+    "campaign_id": "9400",
+    "campaign_name": "Expedia Cruise Packages - Dallas",
+    "client_id": "client_656",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-14T16:37:24.592405",
+    "industry": "travel",
+    "objective": "traffic",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Dallas"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "all",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "travel",
+        "sports",
+        "entertainment"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.9,
+      "bid_floor": 2.45,
+      "bid_ceiling": 14.7,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-16T16:37:24.592405",
+          "bid": 4.9,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 3000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-16T16:37:24.592405",
+      "end": "2026-02-26T16:37:24.592406",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_978",
+      "creative_336",
+      "creative_245"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "8575",
+    "campaign_name": "AMC Theaters Sports Events - Denver",
+    "client_id": "client_247",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-01-21T16:37:24.592419",
+    "industry": "entertainment",
+    "objective": "awareness",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Denver"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "female",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "travel",
+        "automotive",
+        "food"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 5.77,
+      "bid_floor": 2.88,
+      "bid_ceiling": 17.31,
+      "bid_history": [
+        {
+          "timestamp": "2026-01-23T16:37:24.592419",
+          "bid": 5.77,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 1000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-01-23T16:37:24.592419",
+      "end": "2026-02-22T16:37:24.592421",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_980"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 6,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Cannot expand geography - venue is local"
+    }
+  },
+  {
+    "campaign_id": "4505",
+    "campaign_name": "Bank of America Investment Services - Denver",
+    "client_id": "client_100",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-14T16:37:24.592436",
+    "industry": "financial",
+    "objective": "awareness",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Denver"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "automotive",
+        "shopping",
+        "travel",
+        "finance"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.86,
+      "bid_floor": 2.43,
+      "bid_ceiling": 14.58,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-16T16:37:24.592436",
+          "bid": 4.86,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 10000,
+      "daily": 1000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-16T16:37:24.592436",
+      "end": "2026-02-26T16:37:24.592438",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_945",
+      "creative_265",
+      "creative_766"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 2000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "5039",
+    "campaign_name": "Target Back to School - Miami",
+    "client_id": "client_451",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-11T16:37:24.592452",
+    "industry": "retail",
+    "objective": "conversions",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Miami"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "female",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "food",
+        "finance",
+        "sports",
+        "health"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_4"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.16,
+      "bid_floor": 2.08,
+      "bid_ceiling": 12.48,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-13T16:37:24.592452",
+          "bid": 4.16,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 10000,
+      "daily": 1000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-13T16:37:24.592452",
+      "end": "2026-02-23T16:37:24.592454",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_611",
+      "creative_536"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 2000000,
+      "frequency_cap": {
+        "impressions": 6,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Cannot expand geography - venue is local"
+    }
+  },
+  {
+    "campaign_id": "9773",
+    "campaign_name": "Ford Test Drive Campaign - Dallas",
+    "client_id": "client_913",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-11T16:37:24.592467",
+    "industry": "automotive",
+    "objective": "conversions",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Dallas"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "health"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_4"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.73,
+      "bid_floor": 2.37,
+      "bid_ceiling": 14.19,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-13T16:37:24.592467",
+          "bid": 4.73,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 20000,
+      "daily": 2857.14,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-13T16:37:24.592467",
+      "end": "2026-02-20T16:37:24.592469",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_572"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 4000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "6537",
+    "campaign_name": "UnitedHealth Health Insurance - Los Angeles",
+    "client_id": "client_582",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-06T16:37:24.592482",
+    "industry": "healthcare",
+    "objective": "awareness",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Los Angeles"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "female",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "sports",
+        "health",
+        "finance",
+        "food"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_6"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.09,
+      "bid_floor": 3.54,
+      "bid_ceiling": 21.27,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-08T16:37:24.592482",
+          "bid": 7.09,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 15000,
+      "daily": 1500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-08T16:37:24.592482",
+      "end": "2026-02-18T16:37:24.592484",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_202"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 3000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "6442",
+    "campaign_name": "Delta Flight Deals - New York",
+    "client_id": "client_287",
+    "trader_id": "trader_bravo",
+    "status": "active",
+    "created_at": "2026-02-13T16:37:24.592496",
+    "industry": "travel",
+    "objective": "awareness",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "New York"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "male",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "food",
+        "travel",
+        "entertainment"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.54,
+      "bid_floor": 2.27,
+      "bid_ceiling": 13.62,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-15T16:37:24.592496",
+          "bid": 4.54,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 5000,
+      "daily": 500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-15T16:37:24.592496",
+      "end": "2026-02-25T16:37:24.592498",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_464",
+      "creative_976",
+      "creative_550"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 1000000,
+      "frequency_cap": {
+        "impressions": 7,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "5172",
+    "campaign_name": "United Airlines Flight Deals - Seattle",
+    "client_id": "client_747",
+    "trader_id": "trader_charlie",
+    "status": "active",
+    "created_at": "2026-02-11T16:37:24.592513",
+    "industry": "travel",
+    "objective": "awareness",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Seattle"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "all",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "sports",
+        "entertainment",
+        "travel"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_5"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 8.09,
+      "bid_floor": 4.04,
+      "bid_ceiling": 24.27,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-13T16:37:24.592513",
+          "bid": 8.09,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 2142.86,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-13T16:37:24.592513",
+      "end": "2026-02-27T16:37:24.592515",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_273",
+      "creative_963",
+      "creative_703"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 4,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "8146",
+    "campaign_name": "Humana Wellness Program - Atlanta",
+    "client_id": "client_967",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.592528",
+    "industry": "healthcare",
+    "objective": "awareness",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Atlanta"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "all",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "finance",
+        "food"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.82,
+      "bid_floor": 3.91,
+      "bid_ceiling": 23.46,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.592528",
+          "bid": 7.82,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 25000,
+      "daily": 3571.43,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.592528",
+      "end": "2026-02-21T16:37:24.592530",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_171"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 5000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Cannot expand geography - venue is local"
+    }
+  },
+  {
+    "campaign_id": "5285",
+    "campaign_name": "Aetna Urgent Care - New York",
+    "client_id": "client_184",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-14T16:37:24.592543",
+    "industry": "healthcare",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "New York"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "all",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "finance",
+        "health",
+        "food"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.05,
+      "bid_floor": 2.02,
+      "bid_ceiling": 12.15,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-16T16:37:24.592543",
+          "bid": 4.05,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 25000,
+      "daily": 3571.43,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-16T16:37:24.592543",
+      "end": "2026-02-23T16:37:24.592545",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_324"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 5000000,
+      "frequency_cap": {
+        "impressions": 3,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "9907",
+    "campaign_name": "Macy's Flash Sale - Atlanta",
+    "client_id": "client_529",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-01-26T16:37:24.592559",
+    "industry": "retail",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Atlanta"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "female",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "sports",
+        "food",
+        "shopping",
+        "travel"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_6"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 3.39,
+      "bid_floor": 1.7,
+      "bid_ceiling": 10.17,
+      "bid_history": [
+        {
+          "timestamp": "2026-01-28T16:37:24.592559",
+          "bid": 3.39,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 1428.57,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-01-28T16:37:24.592559",
+      "end": "2026-02-18T16:37:24.592561",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_101"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 5,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "6082",
+    "campaign_name": "Airbnb Cruise Packages - Miami",
+    "client_id": "client_387",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-14T16:37:24.592577",
+    "industry": "travel",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Miami"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "male",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "entertainment",
+        "travel",
+        "health"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_3"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.92,
+      "bid_floor": 2.46,
+      "bid_ceiling": 14.76,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-16T16:37:24.592577",
+          "bid": 4.92,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 50000,
+      "daily": 7142.86,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-16T16:37:24.592577",
+      "end": "2026-02-23T16:37:24.592579",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_785",
+      "creative_605"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 10000000,
+      "frequency_cap": {
+        "impressions": 4,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "4041",
+    "campaign_name": "Citibank Personal Loans - Boston",
+    "client_id": "client_940",
+    "trader_id": "trader_bravo",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.592591",
+    "industry": "financial",
+    "objective": "traffic",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Boston"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "all",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "health",
+        "entertainment"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_7"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 8.16,
+      "bid_floor": 4.08,
+      "bid_ceiling": 24.48,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.592591",
+          "bid": 8.16,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 15000,
+      "daily": 500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.592591",
+      "end": "2026-03-16T16:37:24.592593",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_137",
+      "creative_282",
+      "creative_435"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 3000000,
+      "frequency_cap": {
+        "impressions": 4,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "5122",
+    "campaign_name": "Cigna Telemedicine - Phoenix",
+    "client_id": "client_619",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-01-18T16:37:24.592606",
+    "industry": "healthcare",
+    "objective": "awareness",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Phoenix"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "female",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "health"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_8"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 9.13,
+      "bid_floor": 4.57,
+      "bid_ceiling": 27.39,
+      "bid_history": [
+        {
+          "timestamp": "2026-01-20T16:37:24.592606",
+          "bid": 9.13,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 20000,
+      "daily": 666.67,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-01-20T16:37:24.592606",
+      "end": "2026-02-19T16:37:24.592608",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_269"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 4000000,
+      "frequency_cap": {
+        "impressions": 5,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "4159",
+    "campaign_name": "Chase Mortgage Rates - Dallas",
+    "client_id": "client_389",
+    "trader_id": "trader_charlie",
+    "status": "active",
+    "created_at": "2026-02-10T16:37:24.592623",
+    "industry": "financial",
+    "objective": "awareness",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Dallas"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "automotive",
+        "shopping",
+        "food"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_9"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 5.47,
+      "bid_floor": 2.73,
+      "bid_ceiling": 16.41,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-12T16:37:24.592623",
+          "bid": 5.47,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 2142.86,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-12T16:37:24.592623",
+      "end": "2026-02-26T16:37:24.592625",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_373"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "4421",
+    "campaign_name": "Fast Casual Chain Delivery Service - Atlanta",
+    "client_id": "client_516",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-04T16:37:24.592639",
+    "industry": "food_beverage",
+    "objective": "conversions",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Atlanta"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "all",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "health",
+        "travel",
+        "automotive"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 5.7,
+      "bid_floor": 2.85,
+      "bid_ceiling": 17.1,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-06T16:37:24.592639",
+          "bid": 5.7,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 100000,
+      "daily": 7142.86,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-06T16:37:24.592639",
+      "end": "2026-02-20T16:37:24.592641",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_420"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 20000000,
+      "frequency_cap": {
+        "impressions": 7,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Cannot expand geography - venue is local"
+    }
+  },
+  {
+    "campaign_id": "6530",
+    "campaign_name": "Humana Health Insurance - Chicago",
+    "client_id": "client_505",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-13T16:37:24.592654",
+    "industry": "healthcare",
+    "objective": "conversions",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Chicago"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          44
+        ],
+        "gender": "all",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "sports",
+        "food",
+        "health"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 7.06,
+      "bid_floor": 3.53,
+      "bid_ceiling": 21.18,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-15T16:37:24.592654",
+          "bid": 7.06,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 3000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-15T16:37:24.592654",
+      "end": "2026-02-25T16:37:24.592656",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_516",
+      "creative_695"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 9,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Cannot expand geography - venue is local"
+    }
+  },
+  {
+    "campaign_id": "4814",
+    "campaign_name": "Chevrolet New Model Launch - Boston",
+    "client_id": "client_310",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-03T16:37:24.592669",
+    "industry": "automotive",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Boston"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "female",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "automotive",
+        "travel",
+        "health",
+        "sports"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 5.0,
+      "bid_floor": 2.5,
+      "bid_ceiling": 15.0,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-05T16:37:24.592669",
+          "bid": 5.0,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 15000,
+      "daily": 714.29,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-05T16:37:24.592669",
+      "end": "2026-02-26T16:37:24.592671",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_488",
+      "creative_941"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 3000000,
+      "frequency_cap": {
+        "impressions": 10,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "7454",
+    "campaign_name": "AMC Theaters Concert Series - Seattle",
+    "client_id": "client_338",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-11T16:37:24.592684",
+    "industry": "entertainment",
+    "objective": "awareness",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Seattle"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "female",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "automotive",
+        "entertainment",
+        "finance"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 9.13,
+      "bid_floor": 4.57,
+      "bid_ceiling": 27.39,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-13T16:37:24.592684",
+          "bid": 9.13,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 100000,
+      "daily": 7142.86,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-13T16:37:24.592684",
+      "end": "2026-02-27T16:37:24.592686",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_275",
+      "creative_674"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 20000000,
+      "frequency_cap": {
+        "impressions": 6,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "6506",
+    "campaign_name": "BMW Test Drive Campaign - Denver",
+    "client_id": "client_429",
+    "trader_id": "trader_charlie",
+    "status": "active",
+    "created_at": "2026-01-29T16:37:24.592701",
+    "industry": "automotive",
+    "objective": "awareness",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Denver"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "male",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "travel",
+        "automotive",
+        "sports"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_6"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 9.09,
+      "bid_floor": 4.54,
+      "bid_ceiling": 27.27,
+      "bid_history": [
+        {
+          "timestamp": "2026-01-31T16:37:24.592701",
+          "bid": 9.09,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 15000,
+      "daily": 500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-01-31T16:37:24.592701",
+      "end": "2026-03-02T16:37:24.592704",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_645"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 3000000,
+      "frequency_cap": {
+        "impressions": 3,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "9085",
+    "campaign_name": "Cigna Wellness Program - Denver",
+    "client_id": "client_623",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-03T16:37:24.592719",
+    "industry": "healthcare",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Denver"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "all",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "travel",
+        "entertainment"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_4"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 6.06,
+      "bid_floor": 3.03,
+      "bid_ceiling": 18.18,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-05T16:37:24.592719",
+          "bid": 6.06,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 100000,
+      "daily": 3333.33,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-05T16:37:24.592719",
+      "end": "2026-03-07T16:37:24.592721",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_456",
+      "creative_332",
+      "creative_706"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 20000000,
+      "frequency_cap": {
+        "impressions": 8,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Budget is fixed, no increases allowed"
+    }
+  },
+  {
+    "campaign_id": "4183",
+    "campaign_name": "Fast Casual Chain Catering Promo - Dallas",
+    "client_id": "client_626",
+    "trader_id": "trader_delta",
+    "status": "active",
+    "created_at": "2026-02-09T16:37:24.592735",
+    "industry": "food_beverage",
+    "objective": "traffic",
+    "priority": "high",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Dallas"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "travel",
+        "automotive",
+        "sports",
+        "health"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_9"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 5.95,
+      "bid_floor": 2.98,
+      "bid_ceiling": 17.85,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-11T16:37:24.592735",
+          "bid": 5.95,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 3000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-11T16:37:24.592735",
+      "end": "2026-02-21T16:37:24.592736",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_872",
+      "creative_360"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 7,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": "Cannot expand geography - venue is local"
+    }
+  },
+  {
+    "campaign_id": "8144",
+    "campaign_name": "Food Delivery Delivery Service - New York",
+    "client_id": "client_154",
+    "trader_id": "trader_bravo",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.592753",
+    "industry": "food_beverage",
+    "objective": "conversions",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "New York"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "male",
+        "income": [
+          "100k+"
+        ]
+      },
+      "interests": [
+        "food",
+        "sports",
+        "travel",
+        "health"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_4"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 8.7,
+      "bid_floor": 4.35,
+      "bid_ceiling": 26.1,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.592753",
+          "bid": 8.7,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 20000,
+      "daily": 2000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.592753",
+      "end": "2026-02-24T16:37:24.592754",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_937"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 4000000,
+      "frequency_cap": {
+        "impressions": 3,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Client specifically wants Denver metro only"
+    }
+  },
+  {
+    "campaign_id": "9560",
+    "campaign_name": "Anthem Urgent Care - Phoenix",
+    "client_id": "client_621",
+    "trader_id": "trader_echo",
+    "status": "active",
+    "created_at": "2026-02-13T16:37:24.592770",
+    "industry": "healthcare",
+    "objective": "conversions",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Phoenix"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "female",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "automotive",
+        "food",
+        "finance"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": []
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 6.52,
+      "bid_floor": 3.26,
+      "bid_ceiling": 19.56,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-15T16:37:24.592770",
+          "bid": 6.52,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 100000,
+      "daily": 10000.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-15T16:37:24.592770",
+      "end": "2026-02-25T16:37:24.592772",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_644"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 20000000,
+      "frequency_cap": {
+        "impressions": 3,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "7784",
+    "campaign_name": "BMW New Model Launch - Los Angeles",
+    "client_id": "client_900",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-01-26T16:37:24.592785",
+    "industry": "automotive",
+    "objective": "awareness",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Los Angeles"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "female",
+        "income": [
+          "25k-50k",
+          "50k-100k"
+        ]
+      },
+      "interests": [
+        "sports",
+        "travel"
+      ],
+      "device_types": [
+        "desktop",
+        "mobile"
+      ],
+      "custom_audiences": [
+        "audience_5"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 4.36,
+      "bid_floor": 2.18,
+      "bid_ceiling": 13.08,
+      "bid_history": [
+        {
+          "timestamp": "2026-01-28T16:37:24.592785",
+          "bid": 4.36,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 30000,
+      "daily": 1428.57,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-01-28T16:37:24.592785",
+      "end": "2026-02-18T16:37:24.592787",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_278",
+      "creative_362"
+    ],
+    "creative_rotation": "optimized",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 6000000,
+      "frequency_cap": {
+        "impressions": 4,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": false,
+      "budget_locked": true,
+      "targeting_locked": false,
+      "notes": "Cannot expand geography - venue is local"
+    }
+  },
+  {
+    "campaign_id": "5123",
+    "campaign_name": "Food Delivery New Menu Launch - Phoenix",
+    "client_id": "client_464",
+    "trader_id": "trader_alpha",
+    "status": "active",
+    "created_at": "2026-02-05T16:37:24.592800",
+    "industry": "food_beverage",
+    "objective": "traffic",
+    "priority": "standard",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Phoenix"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          35,
+          65
+        ],
+        "gender": "all",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "shopping",
+        "sports",
+        "automotive"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_9"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 5.8,
+      "bid_floor": 2.9,
+      "bid_ceiling": 17.4,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-07T16:37:24.592800",
+          "bid": 5.8,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 5000,
+      "daily": 357.14,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-07T16:37:24.592800",
+      "end": "2026-02-21T16:37:24.592802",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_532"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 1000000,
+      "frequency_cap": {
+        "impressions": 7,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  },
+  {
+    "campaign_id": "4735",
+    "campaign_name": "Sports Arena Concert Series - Atlanta",
+    "client_id": "client_300",
+    "trader_id": "trader_charlie",
+    "status": "active",
+    "created_at": "2026-02-12T16:37:24.592817",
+    "industry": "entertainment",
+    "objective": "conversions",
+    "priority": "critical",
+    "targeting": {
+      "geo": {
+        "type": "dma",
+        "values": [
+          "Atlanta"
+        ],
+        "radius_miles": null
+      },
+      "demographics": {
+        "age_range": [
+          25,
+          54
+        ],
+        "gender": "male",
+        "income": [
+          "50k-100k",
+          "100k+"
+        ]
+      },
+      "interests": [
+        "finance",
+        "shopping"
+      ],
+      "device_types": [
+        "mobile",
+        "tablet"
+      ],
+      "custom_audiences": [
+        "audience_6"
+      ]
+    },
+    "bidding": {
+      "strategy": "fixed_cpm",
+      "current_bid": 6.74,
+      "bid_floor": 3.37,
+      "bid_ceiling": 20.22,
+      "bid_history": [
+        {
+          "timestamp": "2026-02-14T16:37:24.592817",
+          "bid": 6.74,
+          "set_by": "trader",
+          "reason": "initial_setup"
+        }
+      ]
+    },
+    "budget": {
+      "type": "lifetime",
+      "total": 15000,
+      "daily": 1500.0,
+      "pacing_strategy": "even"
+    },
+    "flight": {
+      "start": "2026-02-14T16:37:24.592817",
+      "end": "2026-02-24T16:37:24.592818",
+      "timezone": "America/Chicago"
+    },
+    "creative_ids": [
+      "creative_438"
+    ],
+    "creative_rotation": "even",
+    "optimization": {
+      "auto_optimize": false,
+      "optimization_goal": 3000000,
+      "frequency_cap": {
+        "impressions": 5,
+        "period": "24h"
+      }
+    },
+    "client_restrictions": {
+      "geo_locked": true,
+      "budget_locked": false,
+      "targeting_locked": false,
+      "notes": ""
+    }
+  }
+]
