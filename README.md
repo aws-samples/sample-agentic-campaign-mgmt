@@ -1,9 +1,43 @@
 <!-- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. -->
 <!-- SPDX-License-Identifier: MIT-0 -->
 
-# Campaign Optimization AI Agent
+> **TL;DR:** This repo is a reference architecture for solution architects who want to see
+> GenAI, agentic AI, and traditional ML working together in a single end-to-end system,
+> not as isolated demos.
 
-An AI agent that helps programmatic advertising traders monitor, diagnose, and fix underperforming campaigns, built with Amazon Bedrock, Strands Agents SDK, and a React prototype UI.
+Built from patterns we encountered across real-world engagements in marketing and ad-tech,
+this project shows how a Claude-powered agent on Amazon Bedrock AgentCore orchestrates
+deterministic code, a 3-stage ML pipeline (XGBoost + RandomForest + GradientBoosting),
+and MCP-connected tools to cut an 8-hour manual workflow down to 15 seconds.
+
+The domain is programmatic advertising (campaign pacing, diagnosis, and optimization),
+but the architecture carries over to any domain where you need an AI system that
+*reasons* (GenAI), *computes* (ML models), and *acts* (deterministic logic) in concert:
+financial risk monitoring, clinical trial tracking, supply-chain anomaly detection,
+or fleet operations.
+
+**What makes this repo useful as a learning resource:**
+
+- **Right tool for the job.** GenAI handles reasoning and natural-language synthesis;
+  ML models handle structured classification and regression; deterministic code handles
+  business rules and data retrieval. Nothing is forced into the wrong layer.
+- **Full stack, not a toy.** Agent (Strands SDK), MCP tool gateway (AgentCore),
+  ML inference (SageMaker), React prototype UI, deployment scripts, evals.
+- **Cost-conscious by design.** ML models run on small CPU instances for sub-10ms
+  inference; the LLM is invoked only for orchestration and synthesis, not math.
+- **Repeatable patterns.** The separation between agent reasoning, tool descriptions,
+  and ML inference is a template you can lift into finance, healthcare, or ops domains
+  without rearchitecting.
+
+📖 **Companion blog post:** [Stop Asking Your LLM to Do Math: How We Split Work Between GenAI and ML](#), the full narrative behind the architectural decisions in this repo.
+
+---
+
+## Target Architecture
+
+<p align="center">
+  <img src="docs/images/cm-target-arch.png" alt="Campaign Optimization Target Architecture" width="100%">
+</p>
 
 ---
 
@@ -170,6 +204,16 @@ For the full explanation of what each test layer proves and how coverage expands
 
 This project deliberately combines generative AI and traditional machine learning, using each where it's strongest. It is not "all LLM" or "all ML" - it's a composition that gets better results than either approach alone.
 
+**The 3-stage ML pipeline at a glance:**
+
+| Stage | Model | Question it answers | Example output |
+|-------|-------|---------------------|----------------|
+| 1 | XGBoost classifier | "What's wrong?" | `bid_too_low` (99.7% confidence) |
+| 2 | RandomForest classifier | "What action should we take?" | `bid_adjustment` |
+| 3 | GradientBoosting regressor | "By exactly how much?" | Raise to $5.25 CPM |
+
+The agent doesn't try to crunch these numbers itself. It fires the ML pipeline as a tool call, gets back structured answers, then synthesizes them into the natural-language recommendation the trader reads.
+
 ```mermaid
 flowchart TD
     subgraph GENAI["Generative AI (Claude on Bedrock)"]
@@ -291,13 +335,13 @@ flowchart TD
         Q3["Recommended bid: $5.49"]
     end
 
-    subgraph PROTO["Prototype (localhost — Phase 1)"]
+    subgraph PROTO["Prototype (localhost - Phase 1)"]
         E1["Express route\npattern-matches query"]
         E2["Returns canned diagnosis\nfrom synthetic data"]
         E3["Returns static recommendation\nfrom JSON rules"]
     end
 
-    subgraph REAL["Production (AWS — Phases 2-3)"]
+    subgraph REAL["Production (AWS - Phases 2-3)"]
         R1["Strands Agent\nselects tools via Claude"]
         R2["XGBoost on SageMaker\n6-class classifier"]
         R3["3-stage ML pipeline\nRF + GBR regressors"]
@@ -369,7 +413,7 @@ sequenceDiagram
     ML-->>GW: {issue: "bid_too_low", confidence: 0.997}
     GW-->>A: diagnosis response
 
-    A->>T: "Campaign 4782 is underpacing — bid is 18% below<br/>market floor. Confidence: 99.7%"
+    A->>T: "Campaign 4782 is underpacing - bid is 18% below<br/>market floor. Confidence: 99.7%"
 ```
 
 ### Three-Stage ML Pipeline (Recommendation)
@@ -444,12 +488,6 @@ flowchart LR
 
 ---
 
-## Target Architecture
-
-![Campaign Optimization Target Architecture](docs/images/cm-target-arch.png)
-
----
-
 ## Technology Stack
 
 ### Prototype (Demo UI)
@@ -499,23 +537,6 @@ flowchart LR
 | GET | `/health` | Health check |
 
 ---
-
-## Cost Estimate
-
-| Service | Usage | Monthly Cost |
-|---------|-------|-------------|
-| SageMaker (2 endpoints, ml.t2.medium) | On-demand | ~$80 |
-| Lambda | Per-invocation | < $5 |
-| Bedrock (Claude Sonnet) | Per-token | $50-500 (usage dependent) |
-| AgentCore Runtime | Container hours | ~$30 |
-| **Total (PoC usage)** | | **~$165-615** |
-
-> Pricing effective as of **Aug 2026** - verify at the respective AWS service pricing pages before quoting to customers. Delete endpoints when not in use:
-
-```bash
-aws sagemaker delete-endpoint --endpoint-name campaign-opt-diagnosis --region us-west-2
-aws sagemaker delete-endpoint --endpoint-name campaign-opt-recommendation --region us-west-2
-```
 
 ---
 
