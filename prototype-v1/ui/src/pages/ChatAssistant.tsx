@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: MIT-0
 
 import { useState, useRef, useEffect } from 'react';
-import { useQuery } from '@tanstack/react-query';
 import { Send, Sparkles } from 'lucide-react';
 import { chatApi } from '../api/client';
 import type { ChatMessage } from '../types';

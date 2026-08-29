@@ -6,7 +6,6 @@ import { Link, useLocation } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { MessageSquare, LayoutDashboard, Search, User, TrendingUp, Sun, Moon } from 'lucide-react';
 import { traderApi, campaignApi } from '../api/client';
-import { getCampaignStatus } from '../utils/campaignUtils';
 import { useTheme } from '../hooks/useTheme';
 
 interface LayoutProps {

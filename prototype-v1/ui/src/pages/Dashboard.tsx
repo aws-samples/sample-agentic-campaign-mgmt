@@ -6,7 +6,6 @@ import { TrendingUp, TrendingDown, AlertCircle, CheckCircle } from 'lucide-react
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { campaignApi } from '../api/client';
 import { getCampaignStatus, formatCurrency, formatPercent } from '../utils/campaignUtils';
-import type { Campaign } from '../types';
 
 interface DashboardProps {
   traderId: string;
@@ -194,7 +193,6 @@ function Dashboard({ traderId }: DashboardProps) {
                 <tbody>
                   {campaigns.map((campaign) => {
                     const status = getCampaignStatus(campaign);
-                    const variance = campaign.delivery_pct - campaign.expected_pct;
 
                     return (
                       <tr key={campaign.campaign_id} className="border-b border-gray-100 hover:bg-gray-50">

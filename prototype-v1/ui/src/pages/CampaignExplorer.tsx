@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import { useQuery, useMutation } from '@tanstack/react-query';
-import { Search, TrendingUp, AlertTriangle, Lightbulb, BarChart3, CheckCircle, Pencil, XCircle } from 'lucide-react';
+import { Search, AlertTriangle, Lightbulb, BarChart3, CheckCircle, Pencil, XCircle } from 'lucide-react';
 import { campaignApi } from '../api/client';
 import { getCampaignStatus, formatCurrency, formatPercent, formatNumber } from '../utils/campaignUtils';
 import type { Campaign } from '../types';
@@ -21,7 +21,7 @@ function CampaignExplorer({ traderId }: CampaignExplorerProps) {
     queryFn: () => campaignApi.getCampaignsByTrader(traderId),
   });
 
-  const { data: metrics, isLoading: metricsLoading } = useQuery({
+  const { data: metrics } = useQuery({
     queryKey: ['metrics', selectedCampaignId],
     queryFn: () => campaignApi.getCampaignMetrics(selectedCampaignId),
     enabled: !!selectedCampaignId,
